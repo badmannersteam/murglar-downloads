@@ -2,12 +2,102 @@
   "newsRu": [],
   "newsEn": [],
   "beta": {
-    "distributions": [],
-    "changeLogRu": [],
-    "changeLogEn": [],
+    "distributions": [
+      {
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.5.122/Murglar-Desktop-2.5.122-windows-x64.zip",
+        "hash": "AF7B682B6F5A90A6CE47613FD4A494ABA0237113",
+        "format": "ZIP",
+        "os": "WINDOWS",
+        "arch": "X64"
+      },
+      {
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.5.122/Murglar-Desktop-2.5.122-mac-x64.dmg",
+        "hash": "8911728D97E3359DE73EC32876FC3A47F484779D",
+        "format": "DMG",
+        "os": "MACOS",
+        "arch": "X64"
+      },
+      {
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.5.122/Murglar-Desktop-2.5.122-mac-arm64.dmg",
+        "hash": "05073072EFE55D2583C4659362B4A7046375ACD7",
+        "format": "DMG",
+        "os": "MACOS",
+        "arch": "ARM64"
+      },
+      {
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.5.122/Murglar-Desktop-2.5.122-linux-x64.appimage",
+        "hash": "7AD39C1D03BC26DAE701AABF6C146C540FC59204",
+        "format": "APPIMAGE",
+        "os": "LINUX",
+        "arch": "X64"
+      },
+      {
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.5.122/Murglar-Desktop-2.5.122-all-platforms.jar",
+        "hash": "F2BAD281E5C9B06A523D05A03F4FA9216B67B711",
+        "format": "JAR"
+      }
+    ],
+    "changeLogRu": [
+      {
+        "version": "2.5.122",
+        "datetime": "2024-12-21T20:28:27.575086700Z",
+        "info": [],
+        "added": [
+          "Автоматическое самообновление приложения",
+          "Выбор темы (системная/темная/светлая), ее стиля и цвета акцента",
+          "Экраны профиля и регистрации профиля",
+          "Поиск в списках (можно взять в фокус нажатием Ctrl+F)",
+          "Сортировка в списках",
+          "Поддержка ссылок на экране поиска",
+          "Portable режим - при запуске передайте флаг --portable (для хранения данных будет использоваться текущая папка) или --portable=путь_к_папке (будет использоваться указанная папка)",
+          "Настройка скрытия ненормативного контента",
+          "Настройка поиска, допускающего опечатки или нет",
+          "Настройка 'Открывать боковые панели каждый раз'",
+          "Выбранные режима повтора/перемешивания теперь сохраняются между перезапусками",
+          "Поля тегов Label и Barcode для треков из Deezer"
+        ],
+        "fixed": [
+          "Горячие клавиши больше не срабатывают в полях ввода",
+          "WebDav теперь должен корректно обрабатывать пути с пробелами, спецсимволами и кириллицей",
+          "Запрос тексты из MusicXmatch теперь не должен завершаться с ошибкой из-за упора в каптчу",
+          "Множество обновлений библиотек, исправлений вылетов и обновление до Java 21"
+        ],
+        "changed": [],
+        "removed": []
+      }
+    ],
+    "changeLogEn": [
+      {
+        "version": "2.5.122",
+        "datetime": "2024-12-21T20:28:27.589594Z",
+        "info": [],
+        "added": [
+          "Automatic self-updating of the app",
+          "Choose of the theme (system/dark/light), its style and accent color",
+          "Profile and profile registration screens",
+          "Search in lists (can be focuses by pressing Ctrl+F)",
+          "Sorting in lists",
+          "Support for links on the search screen",
+          "Portable mode - pass the --portable flag at startup (the current folder will be used to store data) or --portable=path_to_folder (the specified folder will be used)",
+          "Setting to hide explicit content",
+          "Setting for search that allows typos or not",
+          "Setting 'Open sidebars every time'",
+          "Selected repeat/shuffle modes are now saved between restarts",
+          "Label and Barcode tag fields for tracks from Deezer"
+        ],
+        "fixed": [
+          "Hotkeys no longer trigger in input fields",
+          "WebDav should now correctly handle paths with spaces, special characters and Cyrillic",
+          "Requesting lyrics from MusicXmatch should no longer fail due to captcha",
+          "Lots of library updates, bug fixes, and an upgrade to Java 21"
+        ],
+        "changed": [],
+        "removed": []
+      }
+    ],
     "versionCode": 122,
     "versionName": "2.5",
-    "lastUpdated": "+1000000000-12-31T23:59:59.999999999Z",
+    "lastUpdated": "2024-12-21T20:48:20.017269990Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

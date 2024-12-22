@@ -4,43 +4,43 @@
   "beta": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.5.122/Murglar-Desktop-2.5.122-windows-x64.zip",
-        "hash": "AF7B682B6F5A90A6CE47613FD4A494ABA0237113",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.6.123/Murglar-Desktop-2.6.123-windows-x64.zip",
+        "hash": "8EDB162B750C8FB2897709D2F3CB88C31B75A173",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.5.122/Murglar-Desktop-2.5.122-mac-x64.dmg",
-        "hash": "8911728D97E3359DE73EC32876FC3A47F484779D",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.6.123/Murglar-Desktop-2.6.123-mac-x64.dmg",
+        "hash": "E2C7D806B7091AAB060A99BE552DCB8D23ABB032",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.5.122/Murglar-Desktop-2.5.122-mac-arm64.dmg",
-        "hash": "05073072EFE55D2583C4659362B4A7046375ACD7",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.6.123/Murglar-Desktop-2.6.123-mac-arm64.dmg",
+        "hash": "C6E97665FE3F5F3437BB86DA6274470E5D207019",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.5.122/Murglar-Desktop-2.5.122-linux-x64.appimage",
-        "hash": "7AD39C1D03BC26DAE701AABF6C146C540FC59204",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.6.123/Murglar-Desktop-2.6.123-linux-x64.appimage",
+        "hash": "09B7B3BEA5495754338F1D3C03276C8EDE221EC6",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.5.122/Murglar-Desktop-2.5.122-all-platforms.jar",
-        "hash": "F2BAD281E5C9B06A523D05A03F4FA9216B67B711",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.6.123/Murglar-Desktop-2.6.123-all-platforms.jar",
+        "hash": "999F4C8FCB74429065A5AFB34A3DE23A6479ECC1",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
       {
-        "version": "2.5.122",
-        "datetime": "2024-12-21T20:28:27.575086700Z",
+        "version": "2.6.123",
+        "datetime": "2024-12-22T20:22:14.797870300Z",
         "info": [],
         "added": [
           "Автоматическое самообновление приложения",
@@ -57,19 +57,88 @@
           "Поля тегов Label и Barcode для треков из Deezer"
         ],
         "fixed": [
+          "Вход в Zvuk из 2.5.122",
+          "Скорость поиска по сервисам",
           "Горячие клавиши больше не срабатывают в полях ввода",
           "WebDav теперь должен корректно обрабатывать пути с пробелами, спецсимволами и кириллицей",
-          "Запрос тексты из MusicXmatch теперь не должен завершаться с ошибкой из-за упора в каптчу",
+          "Запрос текстов из MusicXmatch теперь не должен завершаться с ошибкой из-за упора в каптчу",
           "Множество обновлений библиотек, исправлений вылетов и обновление до Java 21"
         ],
+        "changed": [],
+        "removed": []
+      },
+      {
+        "version": "2.3.120",
+        "datetime": "2024-10-17T21:55:10.982090700Z",
+        "info": [
+          "Встроенного механизма обновления или уведомления о них все еще нет (планируется в следующей версии), так что не забывайте проверять новые версии в канале."
+        ],
+        "added": [
+          "Горячие клавиши (пока только при активном окне приложения). Список горячих клавиш перечислен в 'Настройки' - 'Общие настройки'",
+          "Поддержка AAC 256, AAC 192 и HE-AAC 64 в Яндекс Музыке",
+          "Отображение формата трека в плеере",
+          "Кнопка скачивания в заголовках разделов",
+          "Кнопка открытия папки загрузок в панели загрузок",
+          "Настройка выбора пути к кастомному VLC",
+          "Настройка выбора рендерера интерфейса (может пригодиться, если у вас активна G-Sync/FreeSync)",
+          "Настройка включения debug логов и кнопка открытия папки с логами и настройками приложения"
+        ],
+        "fixed": [
+          "Проблема с автоматическим определение VLC из 2.2.119",
+          "Скачивание/воспроизведение из Deezer",
+          "Вход в Zvuk через web",
+          "Загрузка раздела 'История' в Вконтакте",
+          "Для использования провайдеров текстов песен теперь достаточно Premium (раньше по ошибке требовался Pass)",
+          "Для использования поиска одновременно по нескольким сервисам теперь нужен Premium или Pass (раньше по ошибке не требовались)",
+          "Масштабирование интерфейса на некоторых Linux",
+          "Размер логов теперь ограничен",
+          "Множество мелких исправлений, обновления библиотек и локализаций"
+        ],
+        "changed": [
+          "Версия для Linux теперь является AppImage (также исправлена проблема с запуском из 2.2.119)"
+        ],
+        "removed": []
+      },
+      {
+        "version": "2.1.118",
+        "datetime": "2024-08-03T20:07:37.729346700Z",
+        "info": [],
+        "added": [
+          "Предупреждение о выходе из аккаунта при нажатии на раздел профиля"
+        ],
+        "fixed": [
+          "Запуск на системах с включенным голосовым ассистентом",
+          "Для загрузки обложек в списках теперь используется соответствующий прокси для контента",
+          "Вход в аккаунт Murglar на некоторых устройствах",
+          "Множество крашей приложения"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
+        "version": "2.0.117",
+        "datetime": "2024-07-31T21:05:06.037321400Z",
+        "info": [
+          "Первая бета версия Murglar для компьютеров готова, прошу любить и жаловать!",
+          "Мы успели в июле, по крайней мере в нашем часовом поясе :D",
+          "",
+          "Некоторых фич еще нет (лайков, редактора шаблонов, управления списками/очередью, etc), они будут добавлены в следуюших версиях.",
+          "Встроенного механизма обновления или уведомления о них пока тоже нет, так что не забывайте проверять новые версии в канале.",
+          "",
+          "Поддерживаются Windows x64, Linux x64, Linux arm64 (только версия 'all-platforms'), macOS x64, macOS arm64.",
+          "Для запуска 'all-platforms' jar требуется JRE от Jetbrains 17+, для остальных версий JRE уже содержится в пакете.",
+          "Для запуска на macOS arm64 после установки приложения из DMG может потребоваться выполнить в терминале команду 'sudo xattr -cr /Applications/Murglar.app'."
+        ],
+        "added": [],
+        "fixed": [],
         "changed": [],
         "removed": []
       }
     ],
     "changeLogEn": [
       {
-        "version": "2.5.122",
-        "datetime": "2024-12-21T20:28:27.589594Z",
+        "version": "2.6.123",
+        "datetime": "2024-12-22T20:22:14.805389600Z",
         "info": [],
         "added": [
           "Automatic self-updating of the app",
@@ -86,6 +155,8 @@
           "Label and Barcode tag fields for tracks from Deezer"
         ],
         "fixed": [
+          "Login to Zvuk from 2.5.122",
+          "Speed of search in services",
           "Hotkeys no longer trigger in input fields",
           "WebDav should now correctly handle paths with spaces, special characters and Cyrillic",
           "Requesting lyrics from MusicXmatch should no longer fail due to captcha",
@@ -93,11 +164,78 @@
         ],
         "changed": [],
         "removed": []
+      },
+      {
+        "version": "2.3.120",
+        "datetime": "2024-10-17T21:55:10.989267600Z",
+        "info": [
+          "There are still no autoupdater or notifications about updates (planned for the next version), so don't forget to check for new versions in the channel."
+        ],
+        "added": [
+          "Hotkeys (for now only when the application window is active). The list of hotkeys is listed in 'Settings' - 'General settings'",
+          "Support for AAC 256, AAC 192 and HE-AAC 64 in Yandex Music",
+          "Displaying the track format in the player",
+          "Download button in section headers",
+          "Button to open the downloads folder in the downloads panel",
+          "Path selection for custom VLC",
+          "Interface renderer selection setting (may be useful if you have G-Sync/FreeSync active)",
+          "Setting to enable debug logs and a button to open a folder with logs and application settings"
+        ],
+        "fixed": [
+          "Problem with automatic detection of VLC from 2.2.119",
+          "Downloading/playing from Deezer",
+          "Login to Zvuk via web",
+          "Loading of the 'History' section in Vkontakte",
+          "Premium is now sufficient to use lyrics providers (previously Pass was required by mistake)",
+          "Premium or Pass is now required to use search on multiple services at the same time (previously not required by mistake)",
+          "Interface scaling on some Linux",
+          "The size of the logs is now limited",
+          "Many minor fixes, libraries and localization updates"
+        ],
+        "changed": [
+          "Linux version is an AppImage now (also fixed a problem with launching from 2.2.119)"
+        ],
+        "removed": []
+      },
+      {
+        "version": "2.1.118",
+        "datetime": "2024-08-03T20:07:37.733346600Z",
+        "info": [],
+        "added": [
+          "Account logout warning when clicking on the profile section"
+        ],
+        "fixed": [
+          "Launching on systems with voice assistant enabled",
+          "The appropriate proxy for content is now used for loading covers in lists",
+          "Signing in to Murglar account on some devices",
+          "Multiple application crashes"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
+        "version": "2.0.117",
+        "datetime": "2024-07-31T21:05:06.037321400Z",
+        "info": [
+          "The first beta version of Murglar for PCs is ready, please love and favor!",
+          "We made it in July, at least in our time zone :D",
+          "",
+          "Some features are not yet available (likes, template editor, list/queue management, etc), they will be added in the next versions.",
+          "There's also no built-in update mechanism or notifications about them yet, so don't forget to check for new versions in the channel.",
+          "",
+          "Windows x64, Linux x64, Linux arm64 ('all-platforms' version only), macOS x64, macOS arm64 are supported.",
+          "Jetbrains 17+ JRE is required to run the 'all-platforms' jar, for other versions the JRE is already bundled in the package.",
+          "To run on macOS arm64 after installing an application from a DMG, you may need to run the command 'sudo xattr -cr /Applications/Murglar.app' in the terminal."
+        ],
+        "added": [],
+        "fixed": [],
+        "changed": [],
+        "removed": []
       }
     ],
-    "versionCode": 122,
-    "versionName": "2.5",
-    "lastUpdated": "2024-12-21T20:48:20.017269990Z",
+    "versionCode": 123,
+    "versionName": "2.6",
+    "lastUpdated": "2024-12-22T20:43:09.700255230Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

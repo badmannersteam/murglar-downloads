@@ -9,40 +9,55 @@
   "beta": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.6.123/Murglar-Desktop-2.6.123-windows-x64.zip",
-        "hash": "8EDB162B750C8FB2897709D2F3CB88C31B75A173",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.7.124/Murglar-Desktop-2.7.124-windows-x64.zip",
+        "hash": "236F4CDBA0321B69ED1299967641671356679EA9",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.6.123/Murglar-Desktop-2.6.123-mac-x64.dmg",
-        "hash": "E2C7D806B7091AAB060A99BE552DCB8D23ABB032",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.7.124/Murglar-Desktop-2.7.124-mac-x64.dmg",
+        "hash": "87FCC9D12210F9420BAEE557D74383D2D34FEB28",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.6.123/Murglar-Desktop-2.6.123-mac-arm64.dmg",
-        "hash": "C6E97665FE3F5F3437BB86DA6274470E5D207019",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.7.124/Murglar-Desktop-2.7.124-mac-arm64.dmg",
+        "hash": "2610CAD212EE874726D28E9CB7915FCEC6F4FC58",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.6.123/Murglar-Desktop-2.6.123-linux-x64.appimage",
-        "hash": "09B7B3BEA5495754338F1D3C03276C8EDE221EC6",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.7.124/Murglar-Desktop-2.7.124-linux-x64.appimage",
+        "hash": "7D781602F174B51FDD9A44D815AF5C08F8BBA1E6",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.6.123/Murglar-Desktop-2.6.123-all-platforms.jar",
-        "hash": "999F4C8FCB74429065A5AFB34A3DE23A6479ECC1",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.7.124/Murglar-Desktop-2.7.124-all-platforms.jar",
+        "hash": "D60097CAEA5EF66E95D47CDCF447C6F048A89549",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "2.7.124",
+        "datetime": "2025-01-14T22:18:24.790821Z",
+        "info": [],
+        "added": [
+          "Настройка скачивания обложки в виде файла 'cover.jpeg' вместо включения ее в теги при скачивании альбомов",
+          "Просмотр обложек в исходном размере при клике на них"
+        ],
+        "fixed": [
+          "Загрузка списков в Яндекс Музыке, если список содержал залитые пользователем треки",
+          "Автообновление на Windows больше не будет удалять настройки приложения, если оно было запущено в portable режиме"
+        ],
+        "changed": [],
+        "removed": []
+      },
       {
         "version": "2.6.123",
         "datetime": "2024-12-22T20:22:14.797870300Z",
@@ -142,6 +157,21 @@
     ],
     "changeLogEn": [
       {
+        "version": "2.7.124",
+        "datetime": "2025-01-14T22:18:24.799328200Z",
+        "info": [],
+        "added": [
+          "Setting to download covers as a 'cover.jpeg' file instead of embedding it in tags when downloading albums",
+          "View covers in their original size when click on them"
+        ],
+        "fixed": [
+          "Lists loading in Yandex Music when list contains tracks uploaded by the user",
+          "Selfupdate on Windows will no longer remove application's settings if it was run in portable mode"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "2.6.123",
         "datetime": "2024-12-22T20:22:14.805389600Z",
         "info": [],
@@ -238,9 +268,9 @@
         "removed": []
       }
     ],
-    "versionCode": 123,
-    "versionName": "2.6",
-    "lastUpdated": "2024-12-22T20:43:09.700255230Z",
+    "versionCode": 124,
+    "versionName": "2.7",
+    "lastUpdated": "2025-01-14T22:58:41.108642304Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

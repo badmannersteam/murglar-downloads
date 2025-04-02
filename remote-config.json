@@ -9,40 +9,64 @@
   "beta": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.7.124/Murglar-Desktop-2.7.124-windows-x64.zip",
-        "hash": "236F4CDBA0321B69ED1299967641671356679EA9",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.8.125/Murglar-Desktop-2.8.125-windows-x64.zip",
+        "hash": "0E6D26FDF96E533B2A74BBC9C7384965011E2A6B",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.7.124/Murglar-Desktop-2.7.124-mac-x64.dmg",
-        "hash": "87FCC9D12210F9420BAEE557D74383D2D34FEB28",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.8.125/Murglar-Desktop-2.8.125-mac-x64.dmg",
+        "hash": "701E01E9B218D0A707481CDF5A2C21FE6FDE12F3",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.7.124/Murglar-Desktop-2.7.124-mac-arm64.dmg",
-        "hash": "2610CAD212EE874726D28E9CB7915FCEC6F4FC58",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.8.125/Murglar-Desktop-2.8.125-mac-arm64.dmg",
+        "hash": "053EEFC9337090ECDCA2EAE3CC8343E7009D2714",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.7.124/Murglar-Desktop-2.7.124-linux-x64.appimage",
-        "hash": "7D781602F174B51FDD9A44D815AF5C08F8BBA1E6",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.8.125/Murglar-Desktop-2.8.125-linux-x64.appimage",
+        "hash": "83FBC66F3C0B9910C8F76D05E4715B4AA7EFDB45",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.7.124/Murglar-Desktop-2.7.124-all-platforms.jar",
-        "hash": "D60097CAEA5EF66E95D47CDCF447C6F048A89549",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.8.125/Murglar-Desktop-2.8.125-all-platforms.jar",
+        "hash": "92E83F26F5E35B047191A0D6145958D235E71BAD",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "2.8.125",
+        "datetime": "2025-04-02T21:18:46.375630900Z",
+        "info": [],
+        "added": [
+          "Интеграция с медиасессией на Windows (SMTC) и Linux (MRPIS)",
+          "Редактор шаблонов путей скачивания",
+          "Экран сброса пароля профиля Murglar",
+          "Кнопка закрытия плеера",
+          "Кнопки очистки в полях поиска",
+          "Возможность ввести пути в настройках вручную, если в системе сломан диалог выбора папки"
+        ],
+        "fixed": [
+          "Вход в Звук через web",
+          "Ошибка при включенной сортировке по количеству треков",
+          "Скачивание треков с диакритическими символами в названии на macOS из некоторых сервисов",
+          "Одиночный трек из плейлиста теперь скачивается по пути основного шаблона, а не шаблона плейлиста",
+          "Автоконфигурация прокси для Deezer CDN"
+        ],
+        "changed": [
+          "Сервис 'СберЗвук' переименован в 'Звук'"
+        ],
+        "removed": []
+      },
       {
         "version": "2.7.124",
         "datetime": "2025-01-14T22:18:24.790821Z",
@@ -157,6 +181,30 @@
     ],
     "changeLogEn": [
       {
+        "version": "2.8.125",
+        "datetime": "2025-04-02T21:18:46.382747800Z",
+        "info": [],
+        "added": [
+          "Integration with media session on Windows (SMTC) and Linux (MRPIS)",
+          "Download path templates editor",
+          "Murglar profile password reset screen",
+          "Close player button",
+          "Clear button in the search fields",
+          "Possibility to enter paths in the settings manually if the system's folder selection dialog is broken"
+        ],
+        "fixed": [
+          "Login via web in Zvuk",
+          "Error when sorting by track count was enabled",
+          "Downloading tracks with diacritical characters in the title on macOS from some services",
+          "A single track from a playlist is now downloaded to the path from the main template, not the playlist template",
+          "Proxy autoconfiguration for Deezer CDN"
+        ],
+        "changed": [
+          "'SberZvuk' service has been renamed to 'Zvuk'"
+        ],
+        "removed": []
+      },
+      {
         "version": "2.7.124",
         "datetime": "2025-01-14T22:18:24.799328200Z",
         "info": [],
@@ -268,9 +316,9 @@
         "removed": []
       }
     ],
-    "versionCode": 124,
-    "versionName": "2.7",
-    "lastUpdated": "2025-01-14T22:58:41.108642304Z",
+    "versionCode": 125,
+    "versionName": "2.8",
+    "lastUpdated": "2025-04-02T21:39:44.015816140Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

@@ -9,40 +9,59 @@
   "beta": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.9.126/Murglar-Desktop-2.9.126-windows-x64.zip",
-        "hash": "728C39B17ED510D6E7927DD781E5B5DB801CE498",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.10.127/Murglar-Desktop-2.10.127-windows-x64.zip",
+        "hash": "EEE97880812374E4E17112B4F81AC67594BD52A6",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.9.126/Murglar-Desktop-2.9.126-mac-x64.dmg",
-        "hash": "65D1B38ACAFDE9735C9B0619EA4A6491CBF86AC6",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.10.127/Murglar-Desktop-2.10.127-mac-x64.dmg",
+        "hash": "019A94A812C7C4A78B006556FF7041A265AA7C89",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.9.126/Murglar-Desktop-2.9.126-mac-arm64.dmg",
-        "hash": "3B53327BB50E3090FBC63C24F423F3B2EC78410A",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.10.127/Murglar-Desktop-2.10.127-mac-arm64.dmg",
+        "hash": "F01F156571FDD58B6D92B439F83BEA309DDA057E",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.9.126/Murglar-Desktop-2.9.126-linux-x64.appimage",
-        "hash": "0DB86FFB50C4BC753D1BC991FD996CB051FEB27C",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.10.127/Murglar-Desktop-2.10.127-linux-x64.appimage",
+        "hash": "AC9F7CA567397529CCB12F8F257A17450DB69385",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.9.126/Murglar-Desktop-2.9.126-all-platforms.jar",
-        "hash": "5CC987CA622F2FE4E14D0C4986A7549CB993EAA0",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.10.127/Murglar-Desktop-2.10.127-all-platforms.jar",
+        "hash": "C02C9C316DB0AEF23F63E154289323BF3C714957",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "2.10.127",
+        "datetime": "2025-04-18T18:16:26.863934600Z",
+        "info": [],
+        "added": [
+          "Лайки (пока только в меню, позже будут добавлены в плеер и списки)",
+          "Настройка аргументов для VLC - позволяет задавать устройства вывода и прочее, см. [справку по command-line](https://wiki.videolan.org/VLC_command-line_help/)"
+        ],
+        "fixed": [
+          "Перемотка в Deezer больше не переключает трек на следующий",
+          "Отображение длительности треков в плеере при воспроизведении с WebDAV",
+          "Воспроизведение с WebDAV Mail.ru"
+        ],
+        "changed": [
+          "MP4 FLAC теперь демуксируются в обычные FLAC файлы, а MP4 AAC автоматически переименовываются в M4A при скачивании",
+          "Проверьте выбранный формат в 'Настройках' - 'Яндекс'/'SoundCloud' - 'Формат для ...' и обновите список треков/перезайдите в соотв. аккаунт, если новые форматы недоступны"
+        ],
+        "removed": []
+      },
       {
         "version": "2.9.126",
         "datetime": "2025-04-07T23:53:04.216367800Z",
@@ -196,6 +215,25 @@
     ],
     "changeLogEn": [
       {
+        "version": "2.10.127",
+        "datetime": "2025-04-18T18:16:26.875450800Z",
+        "info": [],
+        "added": [
+          "Likes (only in the menu for now, will be added to the player and lists later)",
+          "Setting arguments for VLC - allows you to set output devices and other things, see [command-line help](https://wiki.videolan.org/VLC_command-line_help/)"
+        ],
+        "fixed": [
+          "Rewind in Deezer no longer switches track to the next",
+          "Displaying track duration in the player when playing from WebDAV",
+          "Playback from Mail.ru WebDAV"
+        ],
+        "changed": [
+          "MP4 FLACs are now demuxed into regular FLAC files and MP4 AACs are automatically renamed to M4A when downloaded",
+          "Check the selected format in 'Settings' - 'Yandex'/'SoundCloud' - 'Format for ...' and refresh the track list/relogin in to corresponding account if new formats are not available"
+        ],
+        "removed": []
+      },
+      {
         "version": "2.9.126",
         "datetime": "2025-04-07T23:53:04.224369500Z",
         "info": [],
@@ -346,9 +384,9 @@
         "removed": []
       }
     ],
-    "versionCode": 126,
-    "versionName": "2.9",
-    "lastUpdated": "2025-04-08T00:14:56.321696409Z",
+    "versionCode": 127,
+    "versionName": "2.10",
+    "lastUpdated": "2025-04-18T19:10:16.303625736Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

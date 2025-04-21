@@ -5,7 +5,12 @@
       "text": "Оплата картами РФ и через СБП снова доступна."
     }
   ],
-  "newsEn": [],
+  "newsEn": [
+    {
+      "datetime": "2025-04-21T15:52:06.211693400Z",
+      "text": "We've added a new payment system that supports international bank cards (for payments from $7)"
+    }
+  ],
   "beta": {
     "distributions": [
       {

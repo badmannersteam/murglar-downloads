@@ -14,40 +14,61 @@
   "beta": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.10.127/Murglar-Desktop-2.10.127-windows-x64.zip",
-        "hash": "EEE97880812374E4E17112B4F81AC67594BD52A6",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.11.128/Murglar-Desktop-2.11.128-windows-x64.zip",
+        "hash": "8FAC56688EA81B11A82C1081ABCA19C5A3678C2F",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.10.127/Murglar-Desktop-2.10.127-mac-x64.dmg",
-        "hash": "019A94A812C7C4A78B006556FF7041A265AA7C89",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.11.128/Murglar-Desktop-2.11.128-mac-x64.dmg",
+        "hash": "58407CADA017B8DE1573BA2E5CBE26FC4C19E416",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.10.127/Murglar-Desktop-2.10.127-mac-arm64.dmg",
-        "hash": "F01F156571FDD58B6D92B439F83BEA309DDA057E",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.11.128/Murglar-Desktop-2.11.128-mac-arm64.dmg",
+        "hash": "F1DDE3F8644DE001577DF16777BFB1C6CF51D8ED",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.10.127/Murglar-Desktop-2.10.127-linux-x64.appimage",
-        "hash": "AC9F7CA567397529CCB12F8F257A17450DB69385",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.11.128/Murglar-Desktop-2.11.128-linux-x64.appimage",
+        "hash": "CA45BC9C760D96A1A5C4A15D6F62A1EDA8F34C10",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.10.127/Murglar-Desktop-2.10.127-all-platforms.jar",
-        "hash": "C02C9C316DB0AEF23F63E154289323BF3C714957",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.11.128/Murglar-Desktop-2.11.128-all-platforms.jar",
+        "hash": "7E3C8C7F69906E74780E989879AD3C526FD74008",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "2.11.128",
+        "datetime": "2025-05-19T17:49:48.131597300Z",
+        "info": [],
+        "added": [
+          "Экран синхронизированных текстов песен и следование за текущим играющим треков",
+          "Сворачивание в трей, можно отключить в настройках",
+          "Лайк в плеере",
+          "Действия 'Поиск в других сервисах' и копирования названия в меню",
+          "Поддержка плагинов (должны находиться в папке 'plugins' рядом с исполняемым файлом или в папке данных)",
+          "Экраны смены пароля и активации промокодов",
+          "Настройка количества потоков загрузчика",
+          "Возможность задать дополнительные аргументы для VLC",
+          "Предупреждение о превышении лимита получения треков через Pass (1000 треков в сутки)"
+        ],
+        "fixed": [
+          "Значительно ускорено выполнение запросов к Deezer"
+        ],
+        "changed": [],
+        "removed": []
+      },
       {
         "version": "2.10.127",
         "datetime": "2025-04-18T18:16:26.863934600Z",
@@ -220,6 +241,27 @@
     ],
     "changeLogEn": [
       {
+        "version": "2.11.128",
+        "datetime": "2025-05-19T17:49:48.151679400Z",
+        "info": [],
+        "added": [
+          "Synchronized lyrics screen and following the current playing track",
+          "Minimize to tray, can be disabled in settings",
+          "Like in player",
+          "Actions 'Search in other services' and title copying in menu",
+          "Plugins support (must be located in the 'plugins' folder next to the executable file or in the data folder)",
+          "Password change and promo code activation screens",
+          "Setting the number of downloader threads",
+          "Ability to set additional arguments for VLC",
+          "Warning about exceeding the limit for receiving tracks through Pass (1000 tracks per day)"
+        ],
+        "fixed": [
+          "Significantly accelerated execution of requests to Deezer"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "2.10.127",
         "datetime": "2025-04-18T18:16:26.875450800Z",
         "info": [],
@@ -389,9 +431,9 @@
         "removed": []
       }
     ],
-    "versionCode": 127,
-    "versionName": "2.10",
-    "lastUpdated": "2025-04-18T19:10:16.303625736Z",
+    "versionCode": 128,
+    "versionName": "2.11",
+    "lastUpdated": "2025-05-19T18:11:42.024741196Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

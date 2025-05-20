@@ -14,43 +14,43 @@
   "beta": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.11.128/Murglar-Desktop-2.11.128-windows-x64.zip",
-        "hash": "8FAC56688EA81B11A82C1081ABCA19C5A3678C2F",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.12.129/Murglar-Desktop-2.12.129-windows-x64.zip",
+        "hash": "34D54E7464EC2F5C2A00AA50BBA72E65ECB7EDAE",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.11.128/Murglar-Desktop-2.11.128-mac-x64.dmg",
-        "hash": "58407CADA017B8DE1573BA2E5CBE26FC4C19E416",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.12.129/Murglar-Desktop-2.12.129-mac-x64.dmg",
+        "hash": "E120D58AAB0D9C964DDD5C7DEB4AC20E04984E10",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.11.128/Murglar-Desktop-2.11.128-mac-arm64.dmg",
-        "hash": "F1DDE3F8644DE001577DF16777BFB1C6CF51D8ED",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.12.129/Murglar-Desktop-2.12.129-mac-arm64.dmg",
+        "hash": "81932059715863B838E1C3A43CFB46DA329C30CF",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.11.128/Murglar-Desktop-2.11.128-linux-x64.appimage",
-        "hash": "CA45BC9C760D96A1A5C4A15D6F62A1EDA8F34C10",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.12.129/Murglar-Desktop-2.12.129-linux-x64.appimage",
+        "hash": "8536A97C3A42FBCE1A4E25200A743017AC021D40",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.11.128/Murglar-Desktop-2.11.128-all-platforms.jar",
-        "hash": "7E3C8C7F69906E74780E989879AD3C526FD74008",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.12.129/Murglar-Desktop-2.12.129-all-platforms.jar",
+        "hash": "F08C04B69DC17A4878138CEE4D106DAFB5DAF5C4",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
       {
-        "version": "2.11.128",
-        "datetime": "2025-05-19T17:49:48.131597300Z",
+        "version": "2.12.129",
+        "datetime": "2025-05-20T01:36:53.744462400Z",
         "info": [],
         "added": [
           "Экран синхронизированных текстов песен и следование за текущим играющим треков",
@@ -64,7 +64,8 @@
           "Предупреждение о превышении лимита получения треков через Pass (1000 треков в сутки)"
         ],
         "fixed": [
-          "Значительно ускорено выполнение запросов к Deezer"
+          "Значительно ускорено выполнение запросов к Deezer",
+          "Зависание при запуске на MacOS и Linux из 2.11.128"
         ],
         "changed": [],
         "removed": []
@@ -241,8 +242,8 @@
     ],
     "changeLogEn": [
       {
-        "version": "2.11.128",
-        "datetime": "2025-05-19T17:49:48.151679400Z",
+        "version": "2.12.129",
+        "datetime": "2025-05-20T01:36:53.748020800Z",
         "info": [],
         "added": [
           "Synchronized lyrics screen and following the current playing track",
@@ -256,7 +257,8 @@
           "Warning about exceeding the limit for receiving tracks through Pass (1000 tracks per day)"
         ],
         "fixed": [
-          "Significantly accelerated execution of requests to Deezer"
+          "Significantly accelerated execution of requests to Deezer",
+          "Stuck on startup on MacOS and Linux from 2.11.128"
         ],
         "changed": [],
         "removed": []
@@ -431,9 +433,9 @@
         "removed": []
       }
     ],
-    "versionCode": 128,
-    "versionName": "2.11",
-    "lastUpdated": "2025-05-19T18:11:42.024741196Z",
+    "versionCode": 129,
+    "versionName": "2.12",
+    "lastUpdated": "2025-05-20T01:58:34.884913647Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

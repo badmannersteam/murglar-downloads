@@ -440,12 +440,90 @@
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },
   "stable": {
-    "distributions": [],
-    "changeLogRu": [],
-    "changeLogEn": [],
-    "versionCode": 122,
-    "versionName": "2.5",
-    "lastUpdated": "+1000000000-12-31T23:59:59.999999999Z",
+    "distributions": [
+      {
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.13.130/Murglar-Desktop-2.13.130-windows-x64.zip",
+        "hash": "F388EEA6A209779F85726FCBCCFF2DD07E9EA10C",
+        "format": "ZIP",
+        "os": "WINDOWS",
+        "arch": "X64"
+      },
+      {
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.13.130/Murglar-Desktop-2.13.130-mac-x64.dmg",
+        "hash": "DE9A02AAE1E4023E3E636B5150EB28E19F63E5F6",
+        "format": "DMG",
+        "os": "MACOS",
+        "arch": "X64"
+      },
+      {
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.13.130/Murglar-Desktop-2.13.130-mac-arm64.dmg",
+        "hash": "00E287D790E79AEE5C353BE8E2EAD1FDC4858DD7",
+        "format": "DMG",
+        "os": "MACOS",
+        "arch": "ARM64"
+      },
+      {
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.13.130/Murglar-Desktop-2.13.130-linux-x64.appimage",
+        "hash": "D59D2696BA60014CE13488E9AE311FA8AD95684E",
+        "format": "APPIMAGE",
+        "os": "LINUX",
+        "arch": "X64"
+      },
+      {
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.13.130/Murglar-Desktop-2.13.130-all-platforms.jar",
+        "hash": "4BEFBBA9D29DEFB95A477C29CB9A6BC649AADEE5",
+        "format": "JAR"
+      }
+    ],
+    "changeLogRu": [
+      {
+        "version": "2.13.130",
+        "datetime": "2025-06-13T17:20:42.590515100Z",
+        "info": [
+          "Первая стабильная версия Murglar Desktop 🎉",
+          "",
+          "Если вас интересуют бета-версии - не забудьте включить 'Общие настройки' - 'Уведомлять о бета-версиях'"
+        ],
+        "added": [
+          "Эквалайзер",
+          "Настройка 'Скачивать треки в обратном порядке'",
+          "Настройка 'Сохранять текст трека в теги' (т.е. теперь можно отключить скачивание текстов)",
+          "Отображение прогресса при добавлении элементов в очередь скачивания",
+          "Поддержка перемотки с помощью виджета медиасессии"
+        ],
+        "fixed": [
+          "Вылет при запуске на Linux системах без libappindicator"
+        ],
+        "changed": [],
+        "removed": []
+      }
+    ],
+    "changeLogEn": [
+      {
+        "version": "2.13.130",
+        "datetime": "2025-06-13T17:20:42.597019700Z",
+        "info": [
+          "First stable version of Murglar Desktop 🎉",
+          "",
+          "If you are interested in beta versions - don't forget to enable 'General Settings' - 'Notify about beta versions'"
+        ],
+        "added": [
+          "Equalizer",
+          "Setting 'Download tracks in reverse order'",
+          "Setting 'Save lyrics to tags' (i.e. you can now disable lyrics downloading)",
+          "Progress displaying when adding items to the download queue",
+          "Support for seeking using the media session widget"
+        ],
+        "fixed": [
+          "Crash on Linux systems without libappindicator"
+        ],
+        "changed": [],
+        "removed": []
+      }
+    ],
+    "versionCode": 130,
+    "versionName": "2.13",
+    "lastUpdated": "2025-06-13T18:01:53.804412971Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

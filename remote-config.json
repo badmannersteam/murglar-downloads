@@ -14,40 +14,61 @@
   "beta": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.12.129/Murglar-Desktop-2.12.129-windows-x64.zip",
-        "hash": "34D54E7464EC2F5C2A00AA50BBA72E65ECB7EDAE",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.13.130/Murglar-Desktop-2.13.130-windows-x64.zip",
+        "hash": "F388EEA6A209779F85726FCBCCFF2DD07E9EA10C",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.12.129/Murglar-Desktop-2.12.129-mac-x64.dmg",
-        "hash": "E120D58AAB0D9C964DDD5C7DEB4AC20E04984E10",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.13.130/Murglar-Desktop-2.13.130-mac-x64.dmg",
+        "hash": "DE9A02AAE1E4023E3E636B5150EB28E19F63E5F6",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.12.129/Murglar-Desktop-2.12.129-mac-arm64.dmg",
-        "hash": "81932059715863B838E1C3A43CFB46DA329C30CF",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.13.130/Murglar-Desktop-2.13.130-mac-arm64.dmg",
+        "hash": "00E287D790E79AEE5C353BE8E2EAD1FDC4858DD7",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.12.129/Murglar-Desktop-2.12.129-linux-x64.appimage",
-        "hash": "8536A97C3A42FBCE1A4E25200A743017AC021D40",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.13.130/Murglar-Desktop-2.13.130-linux-x64.appimage",
+        "hash": "D59D2696BA60014CE13488E9AE311FA8AD95684E",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.12.129/Murglar-Desktop-2.12.129-all-platforms.jar",
-        "hash": "F08C04B69DC17A4878138CEE4D106DAFB5DAF5C4",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.13.130/Murglar-Desktop-2.13.130-all-platforms.jar",
+        "hash": "4BEFBBA9D29DEFB95A477C29CB9A6BC649AADEE5",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "2.13.130",
+        "datetime": "2025-06-13T17:20:42.590515100Z",
+        "info": [
+          "Первая стабильная версия Murglar Desktop 🎉",
+          "",
+          "Если вас интересуют бета-версии - не забудьте включить 'Общие настройки' - 'Уведомлять о бета-версиях'"
+        ],
+        "added": [
+          "Эквалайзер",
+          "Настройка 'Скачивать треки в обратном порядке'",
+          "Настройка 'Сохранять текст трека в теги' (т.е. теперь можно отключить скачивание текстов)",
+          "Отображение прогресса при добавлении элементов в очередь скачивания",
+          "Поддержка перемотки с помощью виджета медиасессии"
+        ],
+        "fixed": [
+          "Вылет при запуске на Linux системах без libappindicator"
+        ],
+        "changed": [],
+        "removed": []
+      },
       {
         "version": "2.12.129",
         "datetime": "2025-05-20T01:36:53.744462400Z",
@@ -242,6 +263,27 @@
     ],
     "changeLogEn": [
       {
+        "version": "2.13.130",
+        "datetime": "2025-06-13T17:20:42.597019700Z",
+        "info": [
+          "First stable version of Murglar Desktop 🎉",
+          "",
+          "If you are interested in beta versions - don't forget to enable 'General Settings' - 'Notify about beta versions'"
+        ],
+        "added": [
+          "Equalizer",
+          "Setting 'Download tracks in reverse order'",
+          "Setting 'Save lyrics to tags' (i.e. you can now disable lyrics downloading)",
+          "Progress displaying when adding items to the download queue",
+          "Support for seeking using the media session widget"
+        ],
+        "fixed": [
+          "Crash on Linux systems without libappindicator"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "2.12.129",
         "datetime": "2025-05-20T01:36:53.748020800Z",
         "info": [],
@@ -433,9 +475,9 @@
         "removed": []
       }
     ],
-    "versionCode": 129,
-    "versionName": "2.12",
-    "lastUpdated": "2025-05-20T01:58:34.884913647Z",
+    "versionCode": 130,
+    "versionName": "2.13",
+    "lastUpdated": "2025-06-13T18:01:53.804412971Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

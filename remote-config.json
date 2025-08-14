@@ -486,40 +486,63 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.13.130/Murglar-Desktop-2.13.130-windows-x64.zip",
-        "hash": "F388EEA6A209779F85726FCBCCFF2DD07E9EA10C",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.0.132/Murglar-Desktop-3.0.132-windows-x64.zip",
+        "hash": "CC08F59EF06796AA3CDC7C6A424D697C28F632B7",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.13.130/Murglar-Desktop-2.13.130-mac-x64.dmg",
-        "hash": "DE9A02AAE1E4023E3E636B5150EB28E19F63E5F6",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.0.132/Murglar-Desktop-3.0.132-mac-x64.dmg",
+        "hash": "7A0BC6C6491DBCF2CF7601895A4C2660A0D5AA58",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.13.130/Murglar-Desktop-2.13.130-mac-arm64.dmg",
-        "hash": "00E287D790E79AEE5C353BE8E2EAD1FDC4858DD7",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.0.132/Murglar-Desktop-3.0.132-mac-arm64.dmg",
+        "hash": "134DCF25EB9D4D5F1FE0ECE2656F0389208B8F4F",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.13.130/Murglar-Desktop-2.13.130-linux-x64.appimage",
-        "hash": "D59D2696BA60014CE13488E9AE311FA8AD95684E",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.0.132/Murglar-Desktop-3.0.132-linux-x64.appimage",
+        "hash": "1ACBDDAC9944F13F95412106B3D76B227C8E9BDF",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.13.130/Murglar-Desktop-2.13.130-all-platforms.jar",
-        "hash": "4BEFBBA9D29DEFB95A477C29CB9A6BC649AADEE5",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.0.132/Murglar-Desktop-3.0.132-all-platforms.jar",
+        "hash": "9168DA40478CF3BF4385DF9ABE6D49EE28EC407E",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "3.0.132",
+        "datetime": "2025-08-14T22:41:37.584926Z",
+        "info": [],
+        "added": [
+          "Настройки радио/волн/Flow (настроение/язык/стиль/etc) в Яндекс Музыке и Deezer",
+          "Действие 'Не рекомендовать' в плеере для треков и артистов в Яндекс Музыке и Deezer",
+          "Отображение типов альбомов (синглы/сборники/etc) и сортировка по ним",
+          "Выделение в списке раздела, из которого играет текущий трек"
+        ],
+        "fixed": [
+          "Вход во Вконтакте",
+          "Вход в Звук через web"
+        ],
+        "changed": [
+          "Полностью переписан плагин Яндекс Музыки для работы с новым API, вместо старого, использовавшего API web-версии Яндекс Музыки, из-за чего поменялась структура разделов своих плейлистов и радио",
+          "В Deezer добавлены дополнительные варианты Flow",
+          "Увеличен максимальный размер обложек в Deezer до 1400p и в Звуке до 1500p",
+          "Если трек был скачан из контекста альбома, то его теги теперь будут содержать теги этого альбома, даже если трек по умолчанию принадлежит другому альбому",
+          "Скачанные с WebDAV треки больше не теггируются заново"
+        ],
+        "removed": []
+      },
       {
         "version": "2.13.130",
         "datetime": "2025-06-13T17:20:42.590515100Z",
@@ -544,6 +567,29 @@
     ],
     "changeLogEn": [
       {
+        "version": "3.0.132",
+        "datetime": "2025-08-14T22:41:37.590920200Z",
+        "info": [],
+        "added": [
+          "Radio/Wave/Flow settings (mood/language/style/etc) in Yandex Music and Deezer",
+          "'Don't recommend' action in player for tracks and artists in Yandex Music and Deezer",
+          "Display album types (singles/collections/etc) and sort by them",
+          "Highlighting the section in the list from which the current track is playing"
+        ],
+        "fixed": [
+          "Login in Vkontakte",
+          "Login via web in Zvuk"
+        ],
+        "changed": [
+          "Yandex Music plugin has been completely rewritten to work with the new API instead of the old one, which used the API of the web-version of Yandex Music, because of which the structure of own playlists and radio sections has changed",
+          "More Flow variants have been added to Deezer",
+          "Increased maximum covers size in Deezer to 1400p and in Zvuk to 1500p",
+          "If a track was downloaded from an album context, its tags will now contain that album's tags, even if the track belongs to a different album by default",
+          "Tracks downloaded from WebDAV are no longer re-tagged"
+        ],
+        "removed": []
+      },
+      {
         "version": "2.13.130",
         "datetime": "2025-06-13T17:20:42.597019700Z",
         "info": [
@@ -565,9 +611,9 @@
         "removed": []
       }
     ],
-    "versionCode": 130,
-    "versionName": "2.13",
-    "lastUpdated": "2025-06-13T18:01:53.804412971Z",
+    "versionCode": 132,
+    "versionName": "3.0",
+    "lastUpdated": "2025-08-14T23:06:11.070704519Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

@@ -486,40 +486,60 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.0.132/Murglar-Desktop-3.0.132-windows-x64.zip",
-        "hash": "CC08F59EF06796AA3CDC7C6A424D697C28F632B7",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.2.134/Murglar-Desktop-3.2.134-windows-x64.zip",
+        "hash": "977559A5B742C989E985AE76CCD6E437BA43D5B9",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.0.132/Murglar-Desktop-3.0.132-mac-x64.dmg",
-        "hash": "7A0BC6C6491DBCF2CF7601895A4C2660A0D5AA58",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.2.134/Murglar-Desktop-3.2.134-mac-x64.dmg",
+        "hash": "BF913460E553D661A46EE0811661F28188B82FB0",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.0.132/Murglar-Desktop-3.0.132-mac-arm64.dmg",
-        "hash": "134DCF25EB9D4D5F1FE0ECE2656F0389208B8F4F",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.2.134/Murglar-Desktop-3.2.134-mac-arm64.dmg",
+        "hash": "505232CC063DAFA58E9E4F78EC2B46294D78F8E7",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.0.132/Murglar-Desktop-3.0.132-linux-x64.appimage",
-        "hash": "1ACBDDAC9944F13F95412106B3D76B227C8E9BDF",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.2.134/Murglar-Desktop-3.2.134-linux-x64.appimage",
+        "hash": "F72CDA5389F9AED37E716AC3B1459AE7A982E181",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.0.132/Murglar-Desktop-3.0.132-all-platforms.jar",
-        "hash": "9168DA40478CF3BF4385DF9ABE6D49EE28EC407E",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.2.134/Murglar-Desktop-3.2.134-all-platforms.jar",
+        "hash": "4B5271FE07A52E645A8E042D342350EA3F42CA9A",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "3.2.134",
+        "datetime": "2025-08-31T21:40:00.984913500Z",
+        "info": [
+          "Яндекс Музыка несколько дней назад пометила аккаунты тех, кто использовал модификации официальных приложений, из-за чего на таких аккаунтах стала появляться реклама платной подписки.",
+          "Подобная реклама была скрыта в этом обновлении.",
+          "",
+          "Однако некоторые аккаунты получили также блокировку 'Моей волны', из-за чего в ней стали играть по кругу 3 трека 'Промокод Upgrade'.",
+          "Обойти это ограничение невозможно, единственный вариант - оплатить подписку хотя бы раз (или завести новый аккаунт)."
+        ],
+        "added": [
+          "Поддержка открытия страниц сайтов музыкальных сервисов в Murglar. Требуется установка [этого userscript](https://greasyfork.org/en/scripts/547150-open-in-murglar) для Tampermonkey/Greasemonkey/Violentmonkey, который добавляет на сайты музыкальных сервисов кнопку 'Открыть в Murglar'"
+        ],
+        "fixed": [
+          "В Яндекс Музыке больше не отображаются рекламные баннеры вместо обложек и не играет реклама вместо треков",
+          "Нумерация треков при скачивании, если включена настройка 'Скачивать в обратном порядке'"
+        ],
+        "changed": [],
+        "removed": []
+      },
       {
         "version": "3.0.132",
         "datetime": "2025-08-14T22:41:37.584926Z",
@@ -567,6 +587,26 @@
     ],
     "changeLogEn": [
       {
+        "version": "3.2.134",
+        "datetime": "2025-08-31T21:40:00.987913400Z",
+        "info": [
+          "Yandex Music a few days ago flagged the accounts of those who used modifications of official apps, and ads of paid subscription began to appear on such accounts.",
+          "Such ads were hidden in this update.",
+          "",
+          "However, some accounts also got 'My Wave' blocked, causing 3 tracks of 'Promocode Upgrade' to be played on loop.",
+          "There is no way around this restriction, the only option is to pay for the subscription at least once (or create a new account)."
+        ],
+        "added": [
+          "Support opening pages of music service sites in Murglar. Requires installation of [this userscript](https://greasyfork.org/en/scripts/547150-open-in-murglar) for Tampermonkey/Greasemonkey/Violentmonkey, which adds an 'Open in Murglar' button to music service sites'"
+        ],
+        "fixed": [
+          "In Yandex Music ad banners no longer display instead of artworks and no audio ads play instead of tracks",
+          "Track numbering when downloading if 'Download in reverse order' setting is enabled"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "3.0.132",
         "datetime": "2025-08-14T22:41:37.590920200Z",
         "info": [],
@@ -611,9 +651,9 @@
         "removed": []
       }
     ],
-    "versionCode": 132,
-    "versionName": "3.0",
-    "lastUpdated": "2025-08-14T23:06:11.070704519Z",
+    "versionCode": 134,
+    "versionName": "3.2",
+    "lastUpdated": "2025-08-31T22:01:25.794232840Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

@@ -486,40 +486,57 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.2.134/Murglar-Desktop-3.2.134-windows-x64.zip",
-        "hash": "977559A5B742C989E985AE76CCD6E437BA43D5B9",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.3.135/Murglar-Desktop-3.3.135-windows-x64.zip",
+        "hash": "5F9511B1DE0926D3FE00FDFF5F8F9B964B4E290B",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.2.134/Murglar-Desktop-3.2.134-mac-x64.dmg",
-        "hash": "BF913460E553D661A46EE0811661F28188B82FB0",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.3.135/Murglar-Desktop-3.3.135-mac-x64.dmg",
+        "hash": "9053766D8438A17282DBB24197DAC4393FD0F853",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.2.134/Murglar-Desktop-3.2.134-mac-arm64.dmg",
-        "hash": "505232CC063DAFA58E9E4F78EC2B46294D78F8E7",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.3.135/Murglar-Desktop-3.3.135-mac-arm64.dmg",
+        "hash": "63134E2D2F8514071FB140FD5221D135A73D8368",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.2.134/Murglar-Desktop-3.2.134-linux-x64.appimage",
-        "hash": "F72CDA5389F9AED37E716AC3B1459AE7A982E181",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.3.135/Murglar-Desktop-3.3.135-linux-x64.appimage",
+        "hash": "D36AF13A4115571356EAFC152290E3B06A24320A",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.2.134/Murglar-Desktop-3.2.134-all-platforms.jar",
-        "hash": "4B5271FE07A52E645A8E042D342350EA3F42CA9A",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.3.135/Murglar-Desktop-3.3.135-all-platforms.jar",
+        "hash": "42D79840EA13BC4DD80969BFBA2E65543DACECE9",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "3.3.135",
+        "datetime": "2025-09-16T16:45:40.798434600Z",
+        "info": [],
+        "added": [],
+        "fixed": [
+          "Загрузка основных разделов в Звуке",
+          "Пропуск некоторых треков в Яндекс Музыке",
+          "Краш при запуске на некоторых Windows системах",
+          "Следование за системной темой (темной/светлой)",
+          "Отображение иконки приложения в панели задач на Windows, если приложение было перемещено в другую папку"
+        ],
+        "changed": [],
+        "removed": [
+          "Поддержка лайков в SoundCloud, т.к. они и так не работали из-за Datadome Captcha защиты со стороны SoundCloud. Лайки вернутся когда будет найден способ обхода этой защиты"
+        ]
+      },
       {
         "version": "3.2.134",
         "datetime": "2025-08-31T21:40:00.984913500Z",
@@ -587,6 +604,23 @@
     ],
     "changeLogEn": [
       {
+        "version": "3.3.135",
+        "datetime": "2025-09-16T16:45:40.811453700Z",
+        "info": [],
+        "added": [],
+        "fixed": [
+          "Main sections loading in Zvuk",
+          "Skipping some tracks in Yandex Music",
+          "Crash on startup on some Windows systems",
+          "System theme following (dark/light)",
+          "Displaying an app icon in the taskbar on Windows if the app has been moved to a different folder"
+        ],
+        "changed": [],
+        "removed": [
+          "Support for likes on SoundCloud, because they were already not working due to Datadome Captcha protection on SoundCloud. Likes will return when a way to bypass this protection will be found"
+        ]
+      },
+      {
         "version": "3.2.134",
         "datetime": "2025-08-31T21:40:00.987913400Z",
         "info": [
@@ -651,9 +685,9 @@
         "removed": []
       }
     ],
-    "versionCode": 134,
-    "versionName": "3.2",
-    "lastUpdated": "2025-08-31T22:01:25.794232840Z",
+    "versionCode": 135,
+    "versionName": "3.3",
+    "lastUpdated": "2025-09-16T17:35:05.268613778Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

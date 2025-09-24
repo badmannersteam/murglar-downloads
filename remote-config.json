@@ -486,40 +486,52 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.3.135/Murglar-Desktop-3.3.135-windows-x64.zip",
-        "hash": "5F9511B1DE0926D3FE00FDFF5F8F9B964B4E290B",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.4.136/Murglar-Desktop-3.4.136-windows-x64.zip",
+        "hash": "F60C95A565422148CEB201E62F5FF6BA5C027800",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.3.135/Murglar-Desktop-3.3.135-mac-x64.dmg",
-        "hash": "9053766D8438A17282DBB24197DAC4393FD0F853",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.4.136/Murglar-Desktop-3.4.136-mac-x64.dmg",
+        "hash": "BF317D679A0066FBDE9EA869E72216FD0B741B30",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.3.135/Murglar-Desktop-3.3.135-mac-arm64.dmg",
-        "hash": "63134E2D2F8514071FB140FD5221D135A73D8368",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.4.136/Murglar-Desktop-3.4.136-mac-arm64.dmg",
+        "hash": "75022ED10884BAD8A355B04093032503956048E2",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.3.135/Murglar-Desktop-3.3.135-linux-x64.appimage",
-        "hash": "D36AF13A4115571356EAFC152290E3B06A24320A",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.4.136/Murglar-Desktop-3.4.136-linux-x64.appimage",
+        "hash": "73865DD75B910B92C2B2793270F77DA2A6951AEF",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.3.135/Murglar-Desktop-3.3.135-all-platforms.jar",
-        "hash": "42D79840EA13BC4DD80969BFBA2E65543DACECE9",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.4.136/Murglar-Desktop-3.4.136-all-platforms.jar",
+        "hash": "AE41E40A3A75F29826A77A561E3BC3DE68D1F175",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "3.4.136",
+        "datetime": "2025-09-24T15:47:33.682311800Z",
+        "info": [],
+        "added": [],
+        "fixed": [
+          "Вход во Вконтакте",
+          "ReplayGain теги в Яндекс Музыке и Deezer теперь записываются в корректном формате"
+        ],
+        "changed": [],
+        "removed": []
+      },
       {
         "version": "3.3.135",
         "datetime": "2025-09-16T16:45:40.798434600Z",
@@ -604,6 +616,18 @@
     ],
     "changeLogEn": [
       {
+        "version": "3.4.136",
+        "datetime": "2025-09-24T15:47:33.689825800Z",
+        "info": [],
+        "added": [],
+        "fixed": [
+          "Login in Vkontakte",
+          "ReplayGain tags in Yandex Music and Deezer are now saved in the correct format"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "3.3.135",
         "datetime": "2025-09-16T16:45:40.811453700Z",
         "info": [],
@@ -685,9 +709,9 @@
         "removed": []
       }
     ],
-    "versionCode": 135,
-    "versionName": "3.3",
-    "lastUpdated": "2025-09-16T17:35:05.268613778Z",
+    "versionCode": 136,
+    "versionName": "3.4",
+    "lastUpdated": "2025-09-24T16:52:46.670663755Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

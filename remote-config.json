@@ -14,472 +14,84 @@
   "beta": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.14.131/Murglar-Desktop-2.14.131-windows-x64.zip",
-        "hash": "89A6249116850B76E813586C76845E8D0F78A4FF",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.6.138/Murglar-Desktop-3.6.138-windows-x64.zip",
+        "hash": "4F978FEB776E1B2FCE17EE0312911E72D4B1A916",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.14.131/Murglar-Desktop-2.14.131-mac-x64.dmg",
-        "hash": "EC853DCF5489F30AE3CB87FDD8DC1BD35F342DE3",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.6.138/Murglar-Desktop-3.6.138-mac-x64.dmg",
+        "hash": "62F41A831C0130EC6BA9DC2D1A9C59C3321DE777",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.14.131/Murglar-Desktop-2.14.131-mac-arm64.dmg",
-        "hash": "EE76813C303E8A3046C9183E39E7023E42E1922E",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.6.138/Murglar-Desktop-3.6.138-mac-arm64.dmg",
+        "hash": "77EEE0FC823A0E0850D760F5EA66C3BD89D30D18",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.14.131/Murglar-Desktop-2.14.131-linux-x64.appimage",
-        "hash": "7EFA4A6948F5270A3C6F0D7A8313E75521FA9851",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.6.138/Murglar-Desktop-3.6.138-linux-x64.appimage",
+        "hash": "79164C3CB59C3B0E7F4FA7C471917B6E7D02024E",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-2.14.131/Murglar-Desktop-2.14.131-all-platforms.jar",
-        "hash": "205FD3915F8616174C781B8BF3B85FED6F1C1E50",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.6.138/Murglar-Desktop-3.6.138-all-platforms.jar",
+        "hash": "1BFBDEF5FBBD9502066FDF47F4514B606270CA06",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
       {
-        "version": "2.14.131",
-        "datetime": "2025-08-10T01:49:18.228672400Z",
+        "version": "3.6.138",
+        "datetime": "2025-10-09T18:03:47.802436400Z",
         "info": [],
         "added": [
-          "Настройки радио/волн/Flow (настроение/язык/стиль/etc) в Яндекс Музыке и Deezer",
-          "Действие 'Не рекомендовать' в плеере для треков и артистов в Яндекс Музыке и Deezer",
-          "Отображение типов альбомов (синглы/сборники/etc) и сортировка по ним",
-          "Выделение в списке раздела, из которого играет текущий трек"
+          "Новый стиль списков и кнопка 'Слушать' в шапке и на некоторых элементах списка",
+          "Возможность использовать тип альбома в шаблонах пути скачивания - %albumType%",
+          "Кнопки управления плеером в меню в трее",
+          "Вход по токенам во Вконтакте"
         ],
         "fixed": [
-          "Вход во Вконтакте"
+          "Отсутствие тегов и обложек при скачивании M4A в некоторых случаях",
+          "Открытие выпадающих список в настройках с клавиатуры"
         ],
         "changed": [
-          "Полностью переписан плагин Яндекс Музыки для работы с новым API, вместо старого, использовавшего API web-версии Яндекс Музыки, из-за чего поменялась структура разделов своих плейлистов и радио",
-          "В Deezer добавлены дополнительные варианты Flow",
-          "Увеличен максимальный размер обложек в Deezer до 1400p и в Звуке до 1500p",
-          "Если трек был скачан из контекста альбома, то его теги теперь будут содержать теги этого альбома, даже если трек по умолчанию принадлежит другому альбому",
-          "Скачанные с WebDAV треки больше не теггируются заново"
+          "Настройки сохранения обложек/текстов в теги/файлы теперь содержат больше вариантов"
         ],
-        "removed": []
-      },
-      {
-        "version": "2.12.129",
-        "datetime": "2025-05-20T01:36:53.744462400Z",
-        "info": [],
-        "added": [
-          "Экран синхронизированных текстов песен и следование за текущим играющим треков",
-          "Сворачивание в трей, можно отключить в настройках",
-          "Лайк в плеере",
-          "Действия 'Поиск в других сервисах' и копирования названия в меню",
-          "Поддержка плагинов (должны находиться в папке 'plugins' рядом с исполняемым файлом или в папке данных)",
-          "Экраны смены пароля и активации промокодов",
-          "Настройка количества потоков загрузчика",
-          "Возможность задать дополнительные аргументы для VLC",
-          "Предупреждение о превышении лимита получения треков через Pass (1000 треков в сутки)"
-        ],
-        "fixed": [
-          "Значительно ускорено выполнение запросов к Deezer",
-          "Зависание при запуске на MacOS и Linux из 2.11.128"
-        ],
-        "changed": [],
-        "removed": []
-      },
-      {
-        "version": "2.10.127",
-        "datetime": "2025-04-18T18:16:26.863934600Z",
-        "info": [],
-        "added": [
-          "Лайки (пока только в меню, позже будут добавлены в плеер и списки)",
-          "Настройка аргументов для VLC - позволяет задавать устройства вывода и прочее, см. [справку по command-line](https://wiki.videolan.org/VLC_command-line_help/)"
-        ],
-        "fixed": [
-          "Перемотка в Deezer больше не переключает трек на следующий",
-          "Отображение длительности треков в плеере при воспроизведении с WebDAV",
-          "Воспроизведение с WebDAV Mail.ru"
-        ],
-        "changed": [
-          "MP4 FLAC теперь демуксируются в обычные FLAC файлы, а MP4 AAC автоматически переименовываются в M4A при скачивании",
-          "Проверьте выбранный формат в 'Настройках' - 'Яндекс'/'SoundCloud' - 'Формат для ...' и обновите список треков/перезайдите в соотв. аккаунт, если новые форматы недоступны"
-        ],
-        "removed": []
-      },
-      {
-        "version": "2.9.126",
-        "datetime": "2025-04-07T23:53:04.216367800Z",
-        "info": [],
-        "added": [],
-        "fixed": [
-          "Получение FLAC и AAC в Яндекс Музыке (теперь Яндекс предоставляет эти форматы в MP4 контейнере)",
-          "Вход во Вконтакте через web в некоторых случаях",
-          "Интеграция с медиасессией на Linux (MPRIS) теперь должна работать",
-          "Обработка кнопки 'Назад' на мышке на Linux",
-          "Автообновление на Windows больше не должно заканчиваться с ошибкой"
-        ],
-        "changed": [],
-        "removed": []
-      },
-      {
-        "version": "2.8.125",
-        "datetime": "2025-04-02T21:18:46.375630900Z",
-        "info": [],
-        "added": [
-          "Интеграция с медиасессией на Windows (SMTC) и Linux (MPRIS)",
-          "Редактор шаблонов путей скачивания",
-          "Экран сброса пароля профиля Murglar",
-          "Кнопка закрытия плеера",
-          "Кнопки очистки в полях поиска",
-          "Возможность ввести пути в настройках вручную, если в системе сломан диалог выбора папки"
-        ],
-        "fixed": [
-          "Вход в Звук через web",
-          "Ошибка при включенной сортировке по количеству треков",
-          "Скачивание треков с диакритическими символами в названии на macOS из некоторых сервисов",
-          "Одиночный трек из плейлиста теперь скачивается по пути основного шаблона, а не шаблона плейлиста",
-          "Автоконфигурация прокси для Deezer CDN"
-        ],
-        "changed": [
-          "Сервис 'СберЗвук' переименован в 'Звук'"
-        ],
-        "removed": []
-      },
-      {
-        "version": "2.7.124",
-        "datetime": "2025-01-14T22:18:24.790821Z",
-        "info": [],
-        "added": [
-          "Настройка скачивания обложки в виде файла 'cover.jpeg' вместо включения ее в теги при скачивании альбомов",
-          "Просмотр обложек в исходном размере при клике на них"
-        ],
-        "fixed": [
-          "Загрузка списков в Яндекс Музыке, если список содержал залитые пользователем треки",
-          "Автообновление на Windows больше не будет удалять настройки приложения, если оно было запущено в portable режиме"
-        ],
-        "changed": [],
-        "removed": []
-      },
-      {
-        "version": "2.6.123",
-        "datetime": "2024-12-22T20:22:14.797870300Z",
-        "info": [],
-        "added": [
-          "Автоматическое самообновление приложения",
-          "Выбор темы (системная/темная/светлая), ее стиля и цвета акцента",
-          "Экраны профиля и регистрации профиля",
-          "Поиск в списках (можно взять в фокус нажатием Ctrl+F)",
-          "Сортировка в списках",
-          "Поддержка ссылок на экране поиска",
-          "Portable режим - при запуске передайте флаг --portable (для хранения данных будет использоваться текущая папка) или --portable=путь_к_папке (будет использоваться указанная папка)",
-          "Настройка скрытия ненормативного контента",
-          "Настройка поиска, допускающего опечатки или нет",
-          "Настройка 'Открывать боковые панели каждый раз'",
-          "Выбранные режима повтора/перемешивания теперь сохраняются между перезапусками",
-          "Поля тегов Label и Barcode для треков из Deezer"
-        ],
-        "fixed": [
-          "Вход в Zvuk из 2.5.122",
-          "Скорость поиска по сервисам",
-          "Горячие клавиши больше не срабатывают в полях ввода",
-          "WebDav теперь должен корректно обрабатывать пути с пробелами, спецсимволами и кириллицей",
-          "Запрос текстов из MusicXmatch теперь не должен завершаться с ошибкой из-за упора в каптчу",
-          "Множество обновлений библиотек, исправлений вылетов и обновление до Java 21"
-        ],
-        "changed": [],
-        "removed": []
-      },
-      {
-        "version": "2.3.120",
-        "datetime": "2024-10-17T21:55:10.982090700Z",
-        "info": [
-          "Встроенного механизма обновления или уведомления о них все еще нет (планируется в следующей версии), так что не забывайте проверять новые версии в канале."
-        ],
-        "added": [
-          "Горячие клавиши (пока только при активном окне приложения). Список горячих клавиш перечислен в 'Настройки' - 'Общие настройки'",
-          "Поддержка AAC 256, AAC 192 и HE-AAC 64 в Яндекс Музыке",
-          "Отображение формата трека в плеере",
-          "Кнопка скачивания в заголовках разделов",
-          "Кнопка открытия папки загрузок в панели загрузок",
-          "Настройка выбора пути к кастомному VLC",
-          "Настройка выбора рендерера интерфейса (может пригодиться, если у вас активна G-Sync/FreeSync)",
-          "Настройка включения debug логов и кнопка открытия папки с логами и настройками приложения"
-        ],
-        "fixed": [
-          "Проблема с автоматическим определение VLC из 2.2.119",
-          "Скачивание/воспроизведение из Deezer",
-          "Вход в Zvuk через web",
-          "Загрузка раздела 'История' в Вконтакте",
-          "Для использования провайдеров текстов песен теперь достаточно Premium (раньше по ошибке требовался Pass)",
-          "Для использования поиска одновременно по нескольким сервисам теперь нужен Premium или Pass (раньше по ошибке не требовались)",
-          "Масштабирование интерфейса на некоторых Linux",
-          "Размер логов теперь ограничен",
-          "Множество мелких исправлений, обновления библиотек и локализаций"
-        ],
-        "changed": [
-          "Версия для Linux теперь является AppImage (также исправлена проблема с запуском из 2.2.119)"
-        ],
-        "removed": []
-      },
-      {
-        "version": "2.1.118",
-        "datetime": "2024-08-03T20:07:37.729346700Z",
-        "info": [],
-        "added": [
-          "Предупреждение о выходе из аккаунта при нажатии на раздел профиля"
-        ],
-        "fixed": [
-          "Запуск на системах с включенным голосовым ассистентом",
-          "Для загрузки обложек в списках теперь используется соответствующий прокси для контента",
-          "Вход в аккаунт Murglar на некоторых устройствах",
-          "Множество крашей приложения"
-        ],
-        "changed": [],
-        "removed": []
-      },
-      {
-        "version": "2.0.117",
-        "datetime": "2024-07-31T21:05:06.037321400Z",
-        "info": [
-          "Первая бета версия Murglar для компьютеров готова, прошу любить и жаловать!",
-          "Мы успели в июле, по крайней мере в нашем часовом поясе :D",
-          "",
-          "Некоторых фич еще нет (лайков, редактора шаблонов, управления списками/очередью, etc), они будут добавлены в следуюших версиях.",
-          "Встроенного механизма обновления или уведомления о них пока тоже нет, так что не забывайте проверять новые версии в канале.",
-          "",
-          "Поддерживаются Windows x64, Linux x64, Linux arm64 (только версия 'all-platforms'), macOS x64, macOS arm64.",
-          "Для запуска 'all-platforms' jar требуется JRE от Jetbrains 17+, для остальных версий JRE уже содержится в пакете.",
-          "Для запуска на macOS arm64 после установки приложения из DMG может потребоваться выполнить в терминале команду 'sudo xattr -cr /Applications/Murglar.app'."
-        ],
-        "added": [],
-        "fixed": [],
-        "changed": [],
         "removed": []
       }
     ],
     "changeLogEn": [
       {
-        "version": "2.14.131",
-        "datetime": "2025-08-10T01:49:18.239896700Z",
+        "version": "3.6.138",
+        "datetime": "2025-10-09T18:03:47.808950200Z",
         "info": [],
         "added": [
-          "Radio/Wave/Flow settings (mood/language/style/etc) in Yandex Music and Deezer",
-          "'Don't recommend' action in player for tracks and artists in Yandex Music and Deezer",
-          "Display album types (singles/collections/etc) and sort by them",
-          "Highlighting the section in the list from which the current track is playing"
+          "New lists style and 'Listen' button in the list header and on some list items",
+          "Option to use album type in download path templates - %albumType%",
+          "Player control buttons in the tray menu",
+          "Login by tokens in Vkontakte"
         ],
         "fixed": [
-          "Login in Vkontakte"
+          "Lack of tags and covers when downloading M4A in some cases",
+          "Opening dropdown lists in the settings from the keyboard"
         ],
         "changed": [
-          "Yandex Music plugin has been completely rewritten to work with the new API instead of the old one, which used the API of the web-version of Yandex Music, because of which the structure of own playlists and radio sections has changed",
-          "More Flow variants have been added to Deezer",
-          "Increased maximum covers size in Deezer to 1400p and in Zvuk to 1500p",
-          "If a track was downloaded from an album context, its tags will now contain that album's tags, even if the track belongs to a different album by default",
-          "Tracks downloaded from WebDAV are no longer re-tagged"
+          "Settings for covers/lyrics saving to tags/files now contain more options"
         ],
-        "removed": []
-      },
-      {
-        "version": "2.12.129",
-        "datetime": "2025-05-20T01:36:53.748020800Z",
-        "info": [],
-        "added": [
-          "Synchronized lyrics screen and following the current playing track",
-          "Minimize to tray, can be disabled in settings",
-          "Like in player",
-          "Actions 'Search in other services' and title copying in menu",
-          "Plugins support (must be located in the 'plugins' folder next to the executable file or in the data folder)",
-          "Password change and promo code activation screens",
-          "Setting the number of downloader threads",
-          "Ability to set additional arguments for VLC",
-          "Warning about exceeding the limit for receiving tracks through Pass (1000 tracks per day)"
-        ],
-        "fixed": [
-          "Significantly accelerated execution of requests to Deezer",
-          "Stuck on startup on MacOS and Linux from 2.11.128"
-        ],
-        "changed": [],
-        "removed": []
-      },
-      {
-        "version": "2.10.127",
-        "datetime": "2025-04-18T18:16:26.875450800Z",
-        "info": [],
-        "added": [
-          "Likes (only in the menu for now, will be added to the player and lists later)",
-          "Setting arguments for VLC - allows you to set output devices and other things, see [command-line help](https://wiki.videolan.org/VLC_command-line_help/)"
-        ],
-        "fixed": [
-          "Rewind in Deezer no longer switches track to the next",
-          "Displaying track duration in the player when playing from WebDAV",
-          "Playback from Mail.ru WebDAV"
-        ],
-        "changed": [
-          "MP4 FLACs are now demuxed into regular FLAC files and MP4 AACs are automatically renamed to M4A when downloaded",
-          "Check the selected format in 'Settings' - 'Yandex'/'SoundCloud' - 'Format for ...' and refresh the track list/relogin in to corresponding account if new formats are not available"
-        ],
-        "removed": []
-      },
-      {
-        "version": "2.9.126",
-        "datetime": "2025-04-07T23:53:04.224369500Z",
-        "info": [],
-        "added": [],
-        "fixed": [
-          "Getting FLAC and AAC from Yandex Music (now Yandex provides these formats in MP4 container)",
-          "Login via web in Vkontakte in some cases",
-          "Media session Integration on Linux (MPRIS) should now work",
-          "Handling the 'Back' button on the mouse on Linux",
-          "Autoupdate on Windows should no longer end with an error"
-        ],
-        "changed": [],
-        "removed": []
-      },
-      {
-        "version": "2.8.125",
-        "datetime": "2025-04-02T21:18:46.382747800Z",
-        "info": [],
-        "added": [
-          "Integration with media session on Windows (SMTC) and Linux (MPRIS)",
-          "Download path templates editor",
-          "Murglar profile password reset screen",
-          "Close player button",
-          "Clear button in the search fields",
-          "Possibility to enter paths in the settings manually if the system's folder selection dialog is broken"
-        ],
-        "fixed": [
-          "Login via web in Zvuk",
-          "Error when sorting by track count was enabled",
-          "Downloading tracks with diacritical characters in the title on macOS from some services",
-          "A single track from a playlist is now downloaded to the path from the main template, not the playlist template",
-          "Proxy autoconfiguration for Deezer CDN"
-        ],
-        "changed": [
-          "'SberZvuk' service has been renamed to 'Zvuk'"
-        ],
-        "removed": []
-      },
-      {
-        "version": "2.7.124",
-        "datetime": "2025-01-14T22:18:24.799328200Z",
-        "info": [],
-        "added": [
-          "Setting to download covers as a 'cover.jpeg' file instead of embedding it in tags when downloading albums",
-          "View covers in their original size when click on them"
-        ],
-        "fixed": [
-          "Lists loading in Yandex Music when list contains tracks uploaded by the user",
-          "Selfupdate on Windows will no longer remove application's settings if it was run in portable mode"
-        ],
-        "changed": [],
-        "removed": []
-      },
-      {
-        "version": "2.6.123",
-        "datetime": "2024-12-22T20:22:14.805389600Z",
-        "info": [],
-        "added": [
-          "Automatic self-updating of the app",
-          "Choose of the theme (system/dark/light), its style and accent color",
-          "Profile and profile registration screens",
-          "Search in lists (can be focuses by pressing Ctrl+F)",
-          "Sorting in lists",
-          "Support for links on the search screen",
-          "Portable mode - pass the --portable flag at startup (the current folder will be used to store data) or --portable=path_to_folder (the specified folder will be used)",
-          "Setting to hide explicit content",
-          "Setting for search that allows typos or not",
-          "Setting 'Open sidebars every time'",
-          "Selected repeat/shuffle modes are now saved between restarts",
-          "Label and Barcode tag fields for tracks from Deezer"
-        ],
-        "fixed": [
-          "Login to Zvuk from 2.5.122",
-          "Speed of search in services",
-          "Hotkeys no longer trigger in input fields",
-          "WebDav should now correctly handle paths with spaces, special characters and Cyrillic",
-          "Requesting lyrics from MusicXmatch should no longer fail due to captcha",
-          "Lots of library updates, bug fixes, and an upgrade to Java 21"
-        ],
-        "changed": [],
-        "removed": []
-      },
-      {
-        "version": "2.3.120",
-        "datetime": "2024-10-17T21:55:10.989267600Z",
-        "info": [
-          "There are still no autoupdater or notifications about updates (planned for the next version), so don't forget to check for new versions in the channel."
-        ],
-        "added": [
-          "Hotkeys (for now only when the application window is active). The list of hotkeys is listed in 'Settings' - 'General settings'",
-          "Support for AAC 256, AAC 192 and HE-AAC 64 in Yandex Music",
-          "Displaying the track format in the player",
-          "Download button in section headers",
-          "Button to open the downloads folder in the downloads panel",
-          "Path selection for custom VLC",
-          "Interface renderer selection setting (may be useful if you have G-Sync/FreeSync active)",
-          "Setting to enable debug logs and a button to open a folder with logs and application settings"
-        ],
-        "fixed": [
-          "Problem with automatic detection of VLC from 2.2.119",
-          "Downloading/playing from Deezer",
-          "Login to Zvuk via web",
-          "Loading of the 'History' section in Vkontakte",
-          "Premium is now sufficient to use lyrics providers (previously Pass was required by mistake)",
-          "Premium or Pass is now required to use search on multiple services at the same time (previously not required by mistake)",
-          "Interface scaling on some Linux",
-          "The size of the logs is now limited",
-          "Many minor fixes, libraries and localization updates"
-        ],
-        "changed": [
-          "Linux version is an AppImage now (also fixed a problem with launching from 2.2.119)"
-        ],
-        "removed": []
-      },
-      {
-        "version": "2.1.118",
-        "datetime": "2024-08-03T20:07:37.733346600Z",
-        "info": [],
-        "added": [
-          "Account logout warning when clicking on the profile section"
-        ],
-        "fixed": [
-          "Launching on systems with voice assistant enabled",
-          "The appropriate proxy for content is now used for loading covers in lists",
-          "Signing in to Murglar account on some devices",
-          "Multiple application crashes"
-        ],
-        "changed": [],
-        "removed": []
-      },
-      {
-        "version": "2.0.117",
-        "datetime": "2024-07-31T21:05:06.037321400Z",
-        "info": [
-          "The first beta version of Murglar for PCs is ready, please love and favor!",
-          "We made it in July, at least in our time zone :D",
-          "",
-          "Some features are not yet available (likes, template editor, list/queue management, etc), they will be added in the next versions.",
-          "There's also no built-in update mechanism or notifications about them yet, so don't forget to check for new versions in the channel.",
-          "",
-          "Windows x64, Linux x64, Linux arm64 ('all-platforms' version only), macOS x64, macOS arm64 are supported.",
-          "Jetbrains 17+ JRE is required to run the 'all-platforms' jar, for other versions the JRE is already bundled in the package.",
-          "To run on macOS arm64 after installing an application from a DMG, you may need to run the command 'sudo xattr -cr /Applications/Murglar.app' in the terminal."
-        ],
-        "added": [],
-        "fixed": [],
-        "changed": [],
         "removed": []
       }
     ],
-    "versionCode": 131,
-    "versionName": "2.14",
-    "lastUpdated": "2025-08-10T02:15:07.092003070Z",
+    "versionCode": 138,
+    "versionName": "3.6",
+    "lastUpdated": "2025-10-09T18:30:22.284232566Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

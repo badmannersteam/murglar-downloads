@@ -98,40 +98,64 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.4.136/Murglar-Desktop-3.4.136-windows-x64.zip",
-        "hash": "F60C95A565422148CEB201E62F5FF6BA5C027800",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.0.139/Murglar-Desktop-4.0.139-windows-x64.zip",
+        "hash": "9EEB178C329CC8D2355035ACB103F23474AF3657",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.4.136/Murglar-Desktop-3.4.136-mac-x64.dmg",
-        "hash": "BF317D679A0066FBDE9EA869E72216FD0B741B30",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.0.139/Murglar-Desktop-4.0.139-mac-x64.dmg",
+        "hash": "5206137126C446D531BBA8B9F2F93405E2654683",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.4.136/Murglar-Desktop-3.4.136-mac-arm64.dmg",
-        "hash": "75022ED10884BAD8A355B04093032503956048E2",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.0.139/Murglar-Desktop-4.0.139-mac-arm64.dmg",
+        "hash": "D813BE313037F658880A7C8D2F009DE71D7EDE8C",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.4.136/Murglar-Desktop-3.4.136-linux-x64.appimage",
-        "hash": "73865DD75B910B92C2B2793270F77DA2A6951AEF",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.0.139/Murglar-Desktop-4.0.139-linux-x64.appimage",
+        "hash": "83D2271176DF875485C84CA36333E3EC1A5E51B5",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.4.136/Murglar-Desktop-3.4.136-all-platforms.jar",
-        "hash": "AE41E40A3A75F29826A77A561E3BC3DE68D1F175",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.0.139/Murglar-Desktop-4.0.139-all-platforms.jar",
+        "hash": "30063E007A3AF828ADECC79DF8B235D863539484",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "4.0.139",
+        "datetime": "2025-10-30T01:13:09.560297200Z",
+        "info": [],
+        "added": [
+          "Новый стиль списков (старый можно включить в настройках) и кнопка 'Слушать' в шапке и на некоторых элементах списка",
+          "Кнопка 'Помощь' в заголовке и окнах входа в сервисы, открывающая FAQ",
+          "Возможность использовать тип альбома в шаблонах пути скачивания - %albumType%",
+          "Кнопки управления плеером в меню в трее",
+          "Вход по токенам во Вконтакте"
+        ],
+        "fixed": [
+          "Вход во Вконтакте. В случае ошибок после обновления перезайдите в аккаунт Вконтакте",
+          "Отсутствие тегов и обложек при скачивании M4A в некоторых случаях",
+          "Открытие выпадающих списков в настройках с клавиатуры",
+          "Вылет на некоторых Linux",
+          "Несколько ошибок установки и работы WebView"
+        ],
+        "changed": [
+          "Настройки сохранения обложек/текстов в теги/файлы теперь содержат больше вариантов",
+          "Автоматическая настройка прокси теперь выполняется быстрее, чаще и не надоедает уведомлениями"
+        ],
+        "removed": []
+      },
       {
         "version": "3.4.136",
         "datetime": "2025-09-24T15:47:33.682311800Z",
@@ -228,6 +252,30 @@
     ],
     "changeLogEn": [
       {
+        "version": "4.0.139",
+        "datetime": "2025-10-30T01:13:09.567443400Z",
+        "info": [],
+        "added": [
+          "New lists style (the old one can be enabled in the settings) and 'Listen' button in the list header and on some list items",
+          "'Help' button in header and service login windows that opens FAQs",
+          "Option to use album type in download path templates - %albumType%",
+          "Player control buttons in the tray menu",
+          "Login by tokens in Vkontakte"
+        ],
+        "fixed": [
+          "Login in Vkontakte. In case of errors after the update relogin to your Vkontakte account",
+          "Lack of tags and covers when downloading M4A in some cases",
+          "Opening dropdown lists in the settings from the keyboard",
+          "Crashes on some Linux",
+          "Several WebView installation and operation errors"
+        ],
+        "changed": [
+          "Settings for covers/lyrics saving to tags/files now contain more options",
+          "Automatic proxy setup is now faster, more frequent, and not annoying with notifications"
+        ],
+        "removed": []
+      },
+      {
         "version": "3.4.136",
         "datetime": "2025-09-24T15:47:33.689825800Z",
         "info": [],
@@ -321,9 +369,9 @@
         "removed": []
       }
     ],
-    "versionCode": 136,
-    "versionName": "3.4",
-    "lastUpdated": "2025-09-24T16:52:46.670663755Z",
+    "versionCode": 139,
+    "versionName": "4.0",
+    "lastUpdated": "2025-10-30T01:41:28.255854445Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

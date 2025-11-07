@@ -98,40 +98,55 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.0.139/Murglar-Desktop-4.0.139-windows-x64.zip",
-        "hash": "9EEB178C329CC8D2355035ACB103F23474AF3657",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.1.140/Murglar-Desktop-4.1.140-windows-x64.zip",
+        "hash": "455B2EFC33CAA206E6C818D77B2B577C3ADFFA8B",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.0.139/Murglar-Desktop-4.0.139-mac-x64.dmg",
-        "hash": "5206137126C446D531BBA8B9F2F93405E2654683",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.1.140/Murglar-Desktop-4.1.140-mac-x64.dmg",
+        "hash": "322DD04580491BD6F655C29517ABD621E9915E5E",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.0.139/Murglar-Desktop-4.0.139-mac-arm64.dmg",
-        "hash": "D813BE313037F658880A7C8D2F009DE71D7EDE8C",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.1.140/Murglar-Desktop-4.1.140-mac-arm64.dmg",
+        "hash": "8EECD6094DDC2E02DA3A33AD3D65386D4AFD4FD0",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.0.139/Murglar-Desktop-4.0.139-linux-x64.appimage",
-        "hash": "83D2271176DF875485C84CA36333E3EC1A5E51B5",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.1.140/Murglar-Desktop-4.1.140-linux-x64.appimage",
+        "hash": "33D039E50660F57D297C442C57978A9581A78BE6",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.0.139/Murglar-Desktop-4.0.139-all-platforms.jar",
-        "hash": "30063E007A3AF828ADECC79DF8B235D863539484",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.1.140/Murglar-Desktop-4.1.140-all-platforms.jar",
+        "hash": "C41795DF517B588D171479B98C62C4D186E35DA9",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "4.1.140",
+        "datetime": "2025-11-07T21:32:09.530291200Z",
+        "info": [],
+        "added": [],
+        "fixed": [
+          "Вход во Вконтакте. В случае ошибок после обновления перезайдите в аккаунт Вконтакте",
+          "Лайки в SoundCloud снова должны работать. Если лайк не выполняется - перезайдите в аккаунт SoundCloud",
+          "В результатах поиска альбомов в SoundCloud теперь должны содержаться альбомы, а не плейлисты"
+        ],
+        "changed": [
+          "Раздел 'Мои плейлисты' в SoundCloud разделен на 'Мои альбомы' и 'Мои плейлисты'"
+        ],
+        "removed": []
+      },
       {
         "version": "4.0.139",
         "datetime": "2025-10-30T01:13:09.560297200Z",
@@ -252,6 +267,21 @@
     ],
     "changeLogEn": [
       {
+        "version": "4.1.140",
+        "datetime": "2025-11-07T21:32:09.536290400Z",
+        "info": [],
+        "added": [],
+        "fixed": [
+          "Login in Vkontakte. In case of errors after the update relogin to your Vkontakte account",
+          "Likes in SoundCloud should work again. If likes are not working, relogin to your SoundCloud account",
+          "Album search results from SoundCloud should now contain albums, not playlists"
+        ],
+        "changed": [
+          "'My Playlists' section in SoundCloud was divided into 'My albums' and 'My playlists'"
+        ],
+        "removed": []
+      },
+      {
         "version": "4.0.139",
         "datetime": "2025-10-30T01:13:09.567443400Z",
         "info": [],
@@ -369,9 +399,9 @@
         "removed": []
       }
     ],
-    "versionCode": 139,
-    "versionName": "4.0",
-    "lastUpdated": "2025-10-30T01:41:28.255854445Z",
+    "versionCode": 140,
+    "versionName": "4.1",
+    "lastUpdated": "2025-11-07T22:00:50.835811441Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

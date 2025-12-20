@@ -88,40 +88,56 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.1.140/Murglar-Desktop-4.1.140-windows-x64.zip",
-        "hash": "455B2EFC33CAA206E6C818D77B2B577C3ADFFA8B",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.2.141/Murglar-Desktop-4.2.141-windows-x64.zip",
+        "hash": "6C50D4C10F610B0006479D3403FC2A2A0C29062D",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.1.140/Murglar-Desktop-4.1.140-mac-x64.dmg",
-        "hash": "322DD04580491BD6F655C29517ABD621E9915E5E",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.2.141/Murglar-Desktop-4.2.141-mac-x64.dmg",
+        "hash": "24F5002780DA18A697C6C6EE26E2C2588DE02D8A",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.1.140/Murglar-Desktop-4.1.140-mac-arm64.dmg",
-        "hash": "8EECD6094DDC2E02DA3A33AD3D65386D4AFD4FD0",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.2.141/Murglar-Desktop-4.2.141-mac-arm64.dmg",
+        "hash": "4642697AF7852256C9AE4DC80D3937F7A7FB4D1D",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.1.140/Murglar-Desktop-4.1.140-linux-x64.appimage",
-        "hash": "33D039E50660F57D297C442C57978A9581A78BE6",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.2.141/Murglar-Desktop-4.2.141-linux-x64.appimage",
+        "hash": "404D79A5FFB83F1FF1D5FA617EF34AF0C87F8567",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.1.140/Murglar-Desktop-4.1.140-all-platforms.jar",
-        "hash": "C41795DF517B588D171479B98C62C4D186E35DA9",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.2.141/Murglar-Desktop-4.2.141-all-platforms.jar",
+        "hash": "A482600073434A13BB8FFE951BC89CE041EB3E18",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "4.2.141",
+        "datetime": "2025-12-20T23:04:52.288581900Z",
+        "info": [],
+        "added": [
+          "Экспорт списка треков/альбомов/исполнителей/etc в файл (доступно в меню в заголовке любого раздела)",
+          "Экран с тегами трека (доступно в меню трека)"
+        ],
+        "fixed": [],
+        "changed": [
+          "Улучшена автоматическая настройка прокси",
+          "Большие обложки в Яндекс Музыке теперь всегда максимально доступного на сервере разрешения",
+          "Сохранение списка исполнителей в ID3v2 и FLAC (Vorbis) теги теперь выполняется согласно стандарту - через разделитель 'NULL' для ID3v2 и в отдельные поля ARTIST для Vorbis"
+        ],
+        "removed": []
+      },
       {
         "version": "4.1.140",
         "datetime": "2025-11-07T21:32:09.530291200Z",
@@ -257,6 +273,22 @@
     ],
     "changeLogEn": [
       {
+        "version": "4.2.141",
+        "datetime": "2025-12-20T23:04:52.296168200Z",
+        "info": [],
+        "added": [
+          "Exporting tracks/albums/artists/etc list to a file (available in the header menu of any section)",
+          "Track tags screen (available in the track menu)"
+        ],
+        "fixed": [],
+        "changed": [
+          "Improved automatic proxy configuration",
+          "Large covers in Yandex Music now always have the highest resolution available on the server",
+          "Saving the list of artists in ID3v2 and FLAC (Vorbis) tags is now done according to the standard - with the 'NULL' separator for ID3v2 and in separate ARTIST fields for Vorbis"
+        ],
+        "removed": []
+      },
+      {
         "version": "4.1.140",
         "datetime": "2025-11-07T21:32:09.536290400Z",
         "info": [],
@@ -389,9 +421,9 @@
         "removed": []
       }
     ],
-    "versionCode": 140,
-    "versionName": "4.1",
-    "lastUpdated": "2025-11-07T22:00:50.835811441Z",
+    "versionCode": 141,
+    "versionName": "4.2",
+    "lastUpdated": "2025-12-20T23:33:54.764657968Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

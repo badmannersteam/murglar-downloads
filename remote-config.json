@@ -14,84 +14,78 @@
   "beta": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.6.138/Murglar-Desktop-3.6.138-windows-x64.zip",
-        "hash": "4F978FEB776E1B2FCE17EE0312911E72D4B1A916",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.4.143/Murglar-Desktop-4.4.143-windows-x64.zip",
+        "hash": "D650D4AD0D381D99FD1EDDEAD803C064745534F6",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.6.138/Murglar-Desktop-3.6.138-mac-x64.dmg",
-        "hash": "62F41A831C0130EC6BA9DC2D1A9C59C3321DE777",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.4.143/Murglar-Desktop-4.4.143-mac-x64.dmg",
+        "hash": "4B2D638E625CF799DF040B0F378895506CC90A9C",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.6.138/Murglar-Desktop-3.6.138-mac-arm64.dmg",
-        "hash": "77EEE0FC823A0E0850D760F5EA66C3BD89D30D18",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.4.143/Murglar-Desktop-4.4.143-mac-arm64.dmg",
+        "hash": "A55FFF59A35475A4FBA8C05002EF22CB513D3DA6",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.6.138/Murglar-Desktop-3.6.138-linux-x64.appimage",
-        "hash": "79164C3CB59C3B0E7F4FA7C471917B6E7D02024E",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.4.143/Murglar-Desktop-4.4.143-linux-x64.appimage",
+        "hash": "8C74F775C842597D378DB4E912E501F48AED7ED0",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-3.6.138/Murglar-Desktop-3.6.138-all-platforms.jar",
-        "hash": "1BFBDEF5FBBD9502066FDF47F4514B606270CA06",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.4.143/Murglar-Desktop-4.4.143-all-platforms.jar",
+        "hash": "97650868E912D74750EDECE6262249B0B82DA5A1",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
       {
-        "version": "3.6.138",
-        "datetime": "2025-10-09T18:03:47.802436400Z",
+        "version": "4.4.143",
+        "datetime": "2026-01-11T19:32:58.723213200Z",
         "info": [],
         "added": [
-          "Новый стиль списков и кнопка 'Слушать' в шапке и на некоторых элементах списка",
-          "Возможность использовать тип альбома в шаблонах пути скачивания - %albumType%",
-          "Кнопки управления плеером в меню в трее",
-          "Вход по токенам во Вконтакте"
+          "Поддержка YouTube Music (радио/миксы/подкасты еще требуют доработки)",
+          "Возможность использовать собственный прокси",
+          "Настройка 'Сохранять всех артистов в одно поле тега'"
         ],
         "fixed": [
-          "Отсутствие тегов и обложек при скачивании M4A в некоторых случаях",
-          "Открытие выпадающих список в настройках с клавиатуры"
+          "Вход в Звук через web",
+          "Идентификатор трека в MPRIS сессии на Linux больше не должен вызывать ошибки"
         ],
-        "changed": [
-          "Настройки сохранения обложек/текстов в теги/файлы теперь содержат больше вариантов"
-        ],
+        "changed": [],
         "removed": []
       }
     ],
     "changeLogEn": [
       {
-        "version": "3.6.138",
-        "datetime": "2025-10-09T18:03:47.808950200Z",
+        "version": "4.4.143",
+        "datetime": "2026-01-11T19:32:58.731713200Z",
         "info": [],
         "added": [
-          "New lists style and 'Listen' button in the list header and on some list items",
-          "Option to use album type in download path templates - %albumType%",
-          "Player control buttons in the tray menu",
-          "Login by tokens in Vkontakte"
+          "YouTube Music support (radio/mixes/podcasts still need fixes)",
+          "Ability to use your own proxy",
+          "Setting 'Write all artists to single field in tags'"
         ],
         "fixed": [
-          "Lack of tags and covers when downloading M4A in some cases",
-          "Opening dropdown lists in the settings from the keyboard"
+          "Login via web in Zvuk",
+          "Track ID in MPRIS session on Linux should no longer cause errors"
         ],
-        "changed": [
-          "Settings for covers/lyrics saving to tags/files now contain more options"
-        ],
+        "changed": [],
         "removed": []
       }
     ],
-    "versionCode": 138,
-    "versionName": "3.6",
-    "lastUpdated": "2025-10-09T18:30:22.284232566Z",
+    "versionCode": 143,
+    "versionName": "4.4",
+    "lastUpdated": "2026-01-11T20:02:25.679216536Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

@@ -14,40 +14,57 @@
   "beta": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.4.143/Murglar-Desktop-4.4.143-windows-x64.zip",
-        "hash": "D650D4AD0D381D99FD1EDDEAD803C064745534F6",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.5.144/Murglar-Desktop-4.5.144-windows-x64.zip",
+        "hash": "C9ED3FF67231A42A66819B5C96E7C2D02C5A1A89",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.4.143/Murglar-Desktop-4.4.143-mac-x64.dmg",
-        "hash": "4B2D638E625CF799DF040B0F378895506CC90A9C",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.5.144/Murglar-Desktop-4.5.144-mac-x64.dmg",
+        "hash": "77DC8C76C20590FC4A23503F1BE91AC55FF740C0",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.4.143/Murglar-Desktop-4.4.143-mac-arm64.dmg",
-        "hash": "A55FFF59A35475A4FBA8C05002EF22CB513D3DA6",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.5.144/Murglar-Desktop-4.5.144-mac-arm64.dmg",
+        "hash": "2910D2380B424E5FE6A71D3EF61052A58ED0DE91",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.4.143/Murglar-Desktop-4.4.143-linux-x64.appimage",
-        "hash": "8C74F775C842597D378DB4E912E501F48AED7ED0",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.5.144/Murglar-Desktop-4.5.144-linux-x64.appimage",
+        "hash": "B6859FABBDCDE6E466938C94F56D8A49E65F0162",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.4.143/Murglar-Desktop-4.4.143-all-platforms.jar",
-        "hash": "97650868E912D74750EDECE6262249B0B82DA5A1",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.5.144/Murglar-Desktop-4.5.144-all-platforms.jar",
+        "hash": "8C783A330D5B5042AEBE6EEF272F4CCBEDF93670",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "4.5.144",
+        "datetime": "2026-01-18T17:34:11.144812100Z",
+        "info": [],
+        "added": [
+          "Настройка 'Заменить домен контента' в YouTube Music. Может помочь, если YouTube заблокирован"
+        ],
+        "fixed": [
+          "Определение завершения входа в YouTube Music",
+          "Скорость скачивания с YouTube Music",
+          "Постраничная загрузка 'моих' разделов в YouTube Music"
+        ],
+        "changed": [
+          "Выбор ссылок на контент в Яндекс Музыке. Может помочь при активных белых списках РКН"
+        ],
+        "removed": []
+      },
       {
         "version": "4.4.143",
         "datetime": "2026-01-11T19:32:58.723213200Z",
@@ -67,6 +84,21 @@
     ],
     "changeLogEn": [
       {
+        "version": "4.5.144",
+        "datetime": "2026-01-18T17:34:11.151387200Z",
+        "info": [],
+        "added": [
+          "'Replace content domain' setting in YouTube Music. May help if YouTube is blocked"
+        ],
+        "fixed": [
+          "YouTube Music authorization completion detection",
+          "Download speed from YouTube Music",
+          "Paged loading of 'my' sections in YouTube Music"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "4.4.143",
         "datetime": "2026-01-11T19:32:58.731713200Z",
         "info": [],
@@ -83,9 +115,9 @@
         "removed": []
       }
     ],
-    "versionCode": 143,
-    "versionName": "4.4",
-    "lastUpdated": "2026-01-11T20:02:25.679216536Z",
+    "versionCode": 144,
+    "versionName": "4.5",
+    "lastUpdated": "2026-01-18T18:47:41.351993476Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

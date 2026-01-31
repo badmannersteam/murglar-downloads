@@ -14,40 +14,59 @@
   "beta": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.5.144/Murglar-Desktop-4.5.144-windows-x64.zip",
-        "hash": "C9ED3FF67231A42A66819B5C96E7C2D02C5A1A89",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.6.145/Murglar-Desktop-4.6.145-windows-x64.zip",
+        "hash": "40597B1DAED3A8611C82BBA99A10F89F5B7C531D",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.5.144/Murglar-Desktop-4.5.144-mac-x64.dmg",
-        "hash": "77DC8C76C20590FC4A23503F1BE91AC55FF740C0",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.6.145/Murglar-Desktop-4.6.145-mac-x64.dmg",
+        "hash": "764F9E4535DA7854554B02680CF914AE2A3E48BE",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.5.144/Murglar-Desktop-4.5.144-mac-arm64.dmg",
-        "hash": "2910D2380B424E5FE6A71D3EF61052A58ED0DE91",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.6.145/Murglar-Desktop-4.6.145-mac-arm64.dmg",
+        "hash": "E0483705E5E56D8506DCDA01CE8221A3AC8CAF75",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.5.144/Murglar-Desktop-4.5.144-linux-x64.appimage",
-        "hash": "B6859FABBDCDE6E466938C94F56D8A49E65F0162",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.6.145/Murglar-Desktop-4.6.145-linux-x64.appimage",
+        "hash": "2450CD01601FDEFB95FB764C9716F9494C01A298",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.5.144/Murglar-Desktop-4.5.144-all-platforms.jar",
-        "hash": "8C783A330D5B5042AEBE6EEF272F4CCBEDF93670",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.6.145/Murglar-Desktop-4.6.145-all-platforms.jar",
+        "hash": "425E48D4F82AAEF15EFC9E16635DD9EB506A4D2A",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "4.6.145",
+        "datetime": "2026-01-31T22:58:32.923141Z",
+        "info": [],
+        "added": [
+          "Раздел 'Настроений и жанров', личное радио и радио по трекам/альбомам/артистам/плейлистам, поддержка подкастов/радио/миксов в YouTube Music",
+          "Настройка 'Не показывать видео' в YouTube Music",
+          "Поддержка SOCKS в пользовательских прокси",
+          "Поддержка кастомных аргументов для WebView"
+        ],
+        "fixed": [
+          "Постраничная загрузка 'моих' разделов в YouTube Music",
+          "Поиск треков теперь ищет еще и видео, поиск плейлистов ищет еще и плейлисты 'от YouTube Music'",
+          "Загрузка своих треков и треков исполнителя в SoundCloud",
+          "Доработан выбор ссылок на контент в Яндекс Музыке. Может помочь при активных белых списках РКН"
+        ],
+        "changed": [],
+        "removed": []
+      },
       {
         "version": "4.5.144",
         "datetime": "2026-01-18T17:34:11.144812100Z",
@@ -84,6 +103,24 @@
     ],
     "changeLogEn": [
       {
+        "version": "4.6.145",
+        "datetime": "2026-01-31T22:58:32.932713900Z",
+        "info": [],
+        "added": [
+          "'Mood and genre' section, personal radio and radio by tracks/albums/artists/playlists, support for podcasts/radio/mixes in YouTube Music",
+          "'Do not show videos' setting in YouTube Music",
+          "SOCKS support in user proxies",
+          "Custom arguments support for WebView"
+        ],
+        "fixed": [
+          "Paged loading of 'my' sections in YouTube Music",
+          "Track search now also searches videos, playlist search now also searches playlists 'from YouTube Music'",
+          "Loading of own tracks and tracks of artist in SoundCloud"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "4.5.144",
         "datetime": "2026-01-18T17:34:11.151387200Z",
         "info": [],
@@ -115,9 +152,9 @@
         "removed": []
       }
     ],
-    "versionCode": 144,
-    "versionName": "4.5",
-    "lastUpdated": "2026-01-18T18:47:41.351993476Z",
+    "versionCode": 145,
+    "versionName": "4.6",
+    "lastUpdated": "2026-01-31T23:45:20.516109221Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

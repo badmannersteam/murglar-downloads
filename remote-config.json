@@ -163,40 +163,60 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.2.141/Murglar-Desktop-4.2.141-windows-x64.zip",
-        "hash": "6C50D4C10F610B0006479D3403FC2A2A0C29062D",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.0.147/Murglar-Desktop-5.0.147-windows-x64.zip",
+        "hash": "457731EFF9A73A4346C72054128FE5CAEC8E0E6C",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.2.141/Murglar-Desktop-4.2.141-mac-x64.dmg",
-        "hash": "24F5002780DA18A697C6C6EE26E2C2588DE02D8A",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.0.147/Murglar-Desktop-5.0.147-mac-x64.dmg",
+        "hash": "493716837C410414F53FE3848A382D2EBFF6C79D",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.2.141/Murglar-Desktop-4.2.141-mac-arm64.dmg",
-        "hash": "4642697AF7852256C9AE4DC80D3937F7A7FB4D1D",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.0.147/Murglar-Desktop-5.0.147-mac-arm64.dmg",
+        "hash": "C933BD649360ADD87E06FD4EC1527D9516FCAF9F",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.2.141/Murglar-Desktop-4.2.141-linux-x64.appimage",
-        "hash": "404D79A5FFB83F1FF1D5FA617EF34AF0C87F8567",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.0.147/Murglar-Desktop-5.0.147-linux-x64.appimage",
+        "hash": "665A972E0E5526BADBE6B3C1BB71339F2A20FF38",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.2.141/Murglar-Desktop-4.2.141-all-platforms.jar",
-        "hash": "A482600073434A13BB8FFE951BC89CE041EB3E18",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.0.147/Murglar-Desktop-5.0.147-all-platforms.jar",
+        "hash": "27C070C363167E9C15ADB397CC919A182C27F75B",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "5.0.147",
+        "datetime": "2026-02-05T18:54:36.587008600Z",
+        "info": [],
+        "added": [
+          "Поддержка YouTube Music",
+          "Возможность использовать собственный прокси (http/socks)",
+          "Настройка 'Сохранять всех артистов в одно поле тега'",
+          "Поддержка кастомных аргументов для WebView"
+        ],
+        "fixed": [
+          "Вход в Звук через web",
+          "Загрузка своих треков и треков исполнителя в SoundCloud",
+          "Идентификатор трека в MPRIS сессии на Linux больше не должен вызывать ошибки"
+        ],
+        "changed": [
+          "Выбор ссылок на контент в Яндекс Музыке. Может помочь при активных белых списках РКН"
+        ],
+        "removed": []
+      },
       {
         "version": "4.2.141",
         "datetime": "2025-12-20T23:04:52.288581900Z",
@@ -348,6 +368,25 @@
     ],
     "changeLogEn": [
       {
+        "version": "5.0.147",
+        "datetime": "2026-02-05T18:54:36.596009300Z",
+        "info": [],
+        "added": [
+          "YouTube Music support",
+          "Spanish and Portuguese localizations",
+          "Ability to use your own proxy (http/socks)",
+          "Setting 'Write all artists to single field in tags'",
+          "Custom arguments support for WebView"
+        ],
+        "fixed": [
+          "Login via web in Zvuk",
+          "Track ID in MPRIS session on Linux should no longer cause errors",
+          "Loading of own tracks and tracks of artist in SoundCloud"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "4.2.141",
         "datetime": "2025-12-20T23:04:52.296168200Z",
         "info": [],
@@ -496,9 +535,9 @@
         "removed": []
       }
     ],
-    "versionCode": 141,
-    "versionName": "4.2",
-    "lastUpdated": "2025-12-20T23:33:54.764657968Z",
+    "versionCode": 147,
+    "versionName": "5.0",
+    "lastUpdated": "2026-02-05T19:24:12.989602840Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

@@ -163,40 +163,60 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.0.147/Murglar-Desktop-5.0.147-windows-x64.zip",
-        "hash": "457731EFF9A73A4346C72054128FE5CAEC8E0E6C",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.2.149/Murglar-Desktop-5.2.149-windows-x64.zip",
+        "hash": "3C82EF7B3105A49EB7A220B522C453DBD53D70DF",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.0.147/Murglar-Desktop-5.0.147-mac-x64.dmg",
-        "hash": "493716837C410414F53FE3848A382D2EBFF6C79D",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.2.149/Murglar-Desktop-5.2.149-mac-x64.dmg",
+        "hash": "3EC4E7F2A1DA579D8A6E69FAB768FEC84B7A534F",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.0.147/Murglar-Desktop-5.0.147-mac-arm64.dmg",
-        "hash": "C933BD649360ADD87E06FD4EC1527D9516FCAF9F",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.2.149/Murglar-Desktop-5.2.149-mac-arm64.dmg",
+        "hash": "A27254CE629CD6DEFB94CC3C4E41BECECED7426B",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.0.147/Murglar-Desktop-5.0.147-linux-x64.appimage",
-        "hash": "665A972E0E5526BADBE6B3C1BB71339F2A20FF38",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.2.149/Murglar-Desktop-5.2.149-linux-x64.appimage",
+        "hash": "2336595B0CDE60933B27A5D4A7C2A489E68B4C95",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.0.147/Murglar-Desktop-5.0.147-all-platforms.jar",
-        "hash": "27C070C363167E9C15ADB397CC919A182C27F75B",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.2.149/Murglar-Desktop-5.2.149-all-platforms.jar",
+        "hash": "86C862A5E13BCF7AB517645AA03D8CC81C425B87",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "5.2.149",
+        "datetime": "2026-02-16T22:51:29.936582300Z",
+        "info": [],
+        "added": [
+          "Возможность выбрать нужный канал в YouTube Music, если каналов на аккаунта несколько",
+          "Открытие альбома/исполнителя при клике по названию трека/имени исполнителя в плеере",
+          "Кнопка копирования ссылки в предпросмотре большой обложки",
+          "Украинская локализация"
+        ],
+        "fixed": [
+          "Краш WebView на MacOS",
+          "Оптимизирована производительность при скачивании большого количества треков",
+          "Поддержка ссылок на youtu.be и yandex.music.uz"
+        ],
+        "changed": [
+          "YouTube Music больше недоступен без входа в аккаунт"
+        ],
+        "removed": []
+      },
       {
         "version": "5.0.147",
         "datetime": "2026-02-05T18:54:36.587008600Z",
@@ -368,6 +388,26 @@
     ],
     "changeLogEn": [
       {
+        "version": "5.2.149",
+        "datetime": "2026-02-16T22:51:29.945638700Z",
+        "info": [],
+        "added": [
+          "Ability to choose the desired channel in YouTube Music if there are several channels on the account",
+          "Opening album/artist when clicking on track/artist name in player",
+          "Copy link button in large cover preview",
+          "Ukrainian localization"
+        ],
+        "fixed": [
+          "WebView crash on MacOS",
+          "Optimized performance when downloading a large number of tracks",
+          "Support for links on youtu.be and yandex.music.uz"
+        ],
+        "changed": [
+          "YouTube Music is no longer available without logging into your account."
+        ],
+        "removed": []
+      },
+      {
         "version": "5.0.147",
         "datetime": "2026-02-05T18:54:36.596009300Z",
         "info": [],
@@ -535,9 +575,9 @@
         "removed": []
       }
     ],
-    "versionCode": 147,
-    "versionName": "5.0",
-    "lastUpdated": "2026-02-05T19:24:12.989602840Z",
+    "versionCode": 149,
+    "versionName": "5.2",
+    "lastUpdated": "2026-02-16T23:23:31.137714520Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

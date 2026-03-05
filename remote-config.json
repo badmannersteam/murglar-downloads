@@ -163,40 +163,51 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.2.149/Murglar-Desktop-5.2.149-windows-x64.zip",
-        "hash": "3C82EF7B3105A49EB7A220B522C453DBD53D70DF",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.3.150/Murglar-Desktop-5.3.150-windows-x64.zip",
+        "hash": "8A9705505567E8ECFA7EF1803B2CAD553BEF451B",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.2.149/Murglar-Desktop-5.2.149-mac-x64.dmg",
-        "hash": "3EC4E7F2A1DA579D8A6E69FAB768FEC84B7A534F",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.3.150/Murglar-Desktop-5.3.150-mac-x64.dmg",
+        "hash": "432D7E35D97A663B0D62BDB873AE7C870C9F58B3",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.2.149/Murglar-Desktop-5.2.149-mac-arm64.dmg",
-        "hash": "A27254CE629CD6DEFB94CC3C4E41BECECED7426B",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.3.150/Murglar-Desktop-5.3.150-mac-arm64.dmg",
+        "hash": "AF9E90FAA2BB4DB737E7D20FF9BCA481F986021A",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.2.149/Murglar-Desktop-5.2.149-linux-x64.appimage",
-        "hash": "2336595B0CDE60933B27A5D4A7C2A489E68B4C95",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.3.150/Murglar-Desktop-5.3.150-linux-x64.appimage",
+        "hash": "5BBEDE3CB8B73577F155C657217F37DA0548DDF0",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.2.149/Murglar-Desktop-5.2.149-all-platforms.jar",
-        "hash": "86C862A5E13BCF7AB517645AA03D8CC81C425B87",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.3.150/Murglar-Desktop-5.3.150-all-platforms.jar",
+        "hash": "0B72FA425F15836C5C0010B5E29AB8E0E8D1354D",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "5.3.150",
+        "datetime": "2026-03-05T17:43:24.411749200Z",
+        "info": [],
+        "added": [],
+        "fixed": [
+          "Воспроизведение/скачивание из YouTube Music"
+        ],
+        "changed": [],
+        "removed": []
+      },
       {
         "version": "5.2.149",
         "datetime": "2026-02-16T22:51:29.936582300Z",
@@ -388,6 +399,17 @@
     ],
     "changeLogEn": [
       {
+        "version": "5.3.150",
+        "datetime": "2026-03-05T17:43:24.425750500Z",
+        "info": [],
+        "added": [],
+        "fixed": [
+          "Playing/downloading from YouTube Music"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "5.2.149",
         "datetime": "2026-02-16T22:51:29.945638700Z",
         "info": [],
@@ -575,9 +597,9 @@
         "removed": []
       }
     ],
-    "versionCode": 149,
-    "versionName": "5.2",
-    "lastUpdated": "2026-02-16T23:23:31.137714520Z",
+    "versionCode": 150,
+    "versionName": "5.3",
+    "lastUpdated": "2026-03-05T18:14:45.699429665Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

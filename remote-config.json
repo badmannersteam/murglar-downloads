@@ -163,40 +163,56 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.3.150/Murglar-Desktop-5.3.150-windows-x64.zip",
-        "hash": "8A9705505567E8ECFA7EF1803B2CAD553BEF451B",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.4.151/Murglar-Desktop-5.4.151-windows-x64.zip",
+        "hash": "BD1683148D655141091ED897439AC1A08F0E8947",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.3.150/Murglar-Desktop-5.3.150-mac-x64.dmg",
-        "hash": "432D7E35D97A663B0D62BDB873AE7C870C9F58B3",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.4.151/Murglar-Desktop-5.4.151-mac-x64.dmg",
+        "hash": "625E0AFA14CC39D1B5D61C8F16877B1B976EB2DC",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.3.150/Murglar-Desktop-5.3.150-mac-arm64.dmg",
-        "hash": "AF9E90FAA2BB4DB737E7D20FF9BCA481F986021A",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.4.151/Murglar-Desktop-5.4.151-mac-arm64.dmg",
+        "hash": "7A54791AB546303F1BFC61F58760CE28F6EC779F",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.3.150/Murglar-Desktop-5.3.150-linux-x64.appimage",
-        "hash": "5BBEDE3CB8B73577F155C657217F37DA0548DDF0",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.4.151/Murglar-Desktop-5.4.151-linux-x64.appimage",
+        "hash": "2360BC4986377118F6602F51C185EE54FF649221",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.3.150/Murglar-Desktop-5.3.150-all-platforms.jar",
-        "hash": "0B72FA425F15836C5C0010B5E29AB8E0E8D1354D",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.4.151/Murglar-Desktop-5.4.151-all-platforms.jar",
+        "hash": "4A4BCAA68C5024D579F20A5E025E973A976234B1",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "5.4.151",
+        "datetime": "2026-04-30T19:29:53.295837700Z",
+        "info": [],
+        "added": [
+          "Поддержка медиасессии на MacOS",
+          "Возможность включить повтор 1 трека в радио/волне/flow"
+        ],
+        "fixed": [
+          "Автообновление приложения на Windows больше не удаляет все содержимое папки, в которой находится исполняемый файл",
+          "Вход в Звук через web",
+          "Настройки 'Моей волны' в Яндексе теперь соответствуют настройкам в официальном приложении"
+        ],
+        "changed": [],
+        "removed": []
+      },
       {
         "version": "5.3.150",
         "datetime": "2026-03-05T17:43:24.411749200Z",
@@ -399,6 +415,22 @@
     ],
     "changeLogEn": [
       {
+        "version": "5.4.151",
+        "datetime": "2026-04-30T19:29:53.311837200Z",
+        "info": [],
+        "added": [
+          "Media session support on macOS",
+          "Ability to enable repeat for 1 track in radio/wave/flow"
+        ],
+        "fixed": [
+          "Auto-updating the app on Windows no longer deletes all the contents of the folder containing the executable file",
+          "Login via web in Zvuk",
+          "Settings for 'My wave' from Yandex now match those in the official app"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "5.3.150",
         "datetime": "2026-03-05T17:43:24.425750500Z",
         "info": [],
@@ -597,9 +629,9 @@
         "removed": []
       }
     ],
-    "versionCode": 150,
-    "versionName": "5.3",
-    "lastUpdated": "2026-03-05T18:14:45.699429665Z",
+    "versionCode": 151,
+    "versionName": "5.4",
+    "lastUpdated": "2026-04-30T20:30:37.346658260Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

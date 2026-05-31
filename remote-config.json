@@ -163,40 +163,53 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.4.151/Murglar-Desktop-5.4.151-windows-x64.zip",
-        "hash": "BD1683148D655141091ED897439AC1A08F0E8947",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.5.152/Murglar-Desktop-5.5.152-windows-x64.zip",
+        "hash": "F879F1A2A91A2DCBBB6FD44A5C7B992E95371BBB",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.4.151/Murglar-Desktop-5.4.151-mac-x64.dmg",
-        "hash": "625E0AFA14CC39D1B5D61C8F16877B1B976EB2DC",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.5.152/Murglar-Desktop-5.5.152-mac-x64.dmg",
+        "hash": "79490754FAC1351BFC272FD626A063206991F836",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.4.151/Murglar-Desktop-5.4.151-mac-arm64.dmg",
-        "hash": "7A54791AB546303F1BFC61F58760CE28F6EC779F",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.5.152/Murglar-Desktop-5.5.152-mac-arm64.dmg",
+        "hash": "D5BD6BC3922320CCF7AE1301E55924A26338FDBB",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.4.151/Murglar-Desktop-5.4.151-linux-x64.appimage",
-        "hash": "2360BC4986377118F6602F51C185EE54FF649221",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.5.152/Murglar-Desktop-5.5.152-linux-x64.appimage",
+        "hash": "8BA2C80DCE4E324D4B868BF3992CF30ED6CFE282",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.4.151/Murglar-Desktop-5.4.151-all-platforms.jar",
-        "hash": "4A4BCAA68C5024D579F20A5E025E973A976234B1",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.5.152/Murglar-Desktop-5.5.152-all-platforms.jar",
+        "hash": "2A1D71949D96DB663AF3F2412175B0E186420EDA",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "5.5.152",
+        "datetime": "2026-05-31T13:31:01.101487600Z",
+        "info": [],
+        "added": [],
+        "fixed": [
+          "Автоконфигурация прокси при активных белых списках в РФ",
+          "Режим 'Повторять 1 трек' больше не сбрасывается при запуске новой очереди",
+          "Множество мелких исправлений и обновления библиотек"
+        ],
+        "changed": [],
+        "removed": []
+      },
       {
         "version": "5.4.151",
         "datetime": "2026-04-30T19:29:53.295837700Z",
@@ -415,6 +428,18 @@
     ],
     "changeLogEn": [
       {
+        "version": "5.5.152",
+        "datetime": "2026-05-31T13:31:01.112989400Z",
+        "info": [],
+        "added": [],
+        "fixed": [
+          "'Repeat 1 Track' mode is no longer reset when a new queue is started",
+          "Many minor fixes and libraries updates"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "5.4.151",
         "datetime": "2026-04-30T19:29:53.311837200Z",
         "info": [],
@@ -629,9 +654,9 @@
         "removed": []
       }
     ],
-    "versionCode": 151,
-    "versionName": "5.4",
-    "lastUpdated": "2026-04-30T20:30:37.346658260Z",
+    "versionCode": 152,
+    "versionName": "5.5",
+    "lastUpdated": "2026-05-31T13:58:51.855073655Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

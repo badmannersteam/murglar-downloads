@@ -14,149 +14,90 @@
   "beta": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.7.146/Murglar-Desktop-4.7.146-windows-x64.zip",
-        "hash": "B57E8E4074AC746E007ED97E22D1F1E8B89B012D",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.0.155/Murglar-Desktop-6.0.155-windows-x64.zip",
+        "hash": "A01C82DA00F7ED9726FE5BC266BBCE9E25382DA5",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.7.146/Murglar-Desktop-4.7.146-mac-x64.dmg",
-        "hash": "BE81124E9F7D59865C15910338A8DFEBD5029E2B",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.0.155/Murglar-Desktop-6.0.155-mac-x64.dmg",
+        "hash": "48956D9501B6754FDD4ED844E8F3533EC14105C7",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.7.146/Murglar-Desktop-4.7.146-mac-arm64.dmg",
-        "hash": "5ECE1137AD5DCE2351960E480B4C114261EABDA6",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.0.155/Murglar-Desktop-6.0.155-mac-arm64.dmg",
+        "hash": "1EF0B701F697A6C3A9D4AE71D88D3501F2A1888D",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.7.146/Murglar-Desktop-4.7.146-linux-x64.appimage",
-        "hash": "B363C855C5411EE2FB9663B253C150E607546686",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.0.155/Murglar-Desktop-6.0.155-linux-x64.appimage",
+        "hash": "0C7B76C6A59AA4BAAA7296EBAB1A4BBD4672D44C",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-4.7.146/Murglar-Desktop-4.7.146-all-platforms.jar",
-        "hash": "00376A72C0E29421A199529853E28658ED0ADB77",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.0.155/Murglar-Desktop-6.0.155-all-platforms.jar",
+        "hash": "8E98C38008BC264EB2A1D38BE86F1F51D1682ABE",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
       {
-        "version": "4.7.146",
-        "datetime": "2026-02-03T00:02:27.556493600Z",
+        "version": "6.0.155",
+        "datetime": "2026-07-04T17:53:20.724072400Z",
         "info": [],
         "added": [
-          "Раздел 'Настроений и жанров', личное радио и радио по трекам/альбомам/артистам/плейлистам, поддержка подкастов/радио/миксов в YouTube Music",
-          "Настройка 'Не показывать видео' в YouTube Music",
-          "Поддержка SOCKS в пользовательских прокси",
-          "Поддержка кастомных аргументов для WebView"
+          "Murglar Pass теперь доступен для всех сервисов - слушайте музыку в высоком качестве, даже если оно недоступно в текущем сервисе",
+          "Базовая поддержка Tidal. Больше разделов будет добавлено позднее",
+          "Раздел 'Библиотека' - все ваши треки/альбомы/исполнители/плейлисты из всех подключенных сервисов в одном разделе",
+          "Реферальная система - приглашайте друзей и получайте награды в виде продления Murglar Pass. Подробности можно найти на экране профиля"
         ],
         "fixed": [
-          "Определение наличия YouTube Premium и проблемы с воспроизведением YouTube Music из версии 4.6.145",
-          "Постраничная загрузка 'моих' разделов в YouTube Music",
-          "Поиск треков теперь ищет еще и видео, поиск плейлистов ищет еще и плейлисты 'от YouTube Music'",
-          "Загрузка своих треков и треков исполнителя в SoundCloud",
-          "Доработан выбор ссылок на контент в Яндекс Музыке. Может помочь при активных белых списках РКН"
-        ],
-        "changed": [],
-        "removed": []
-      },
-      {
-        "version": "4.5.144",
-        "datetime": "2026-01-18T17:34:11.144812100Z",
-        "info": [],
-        "added": [
-          "Настройка 'Заменить домен контента' в YouTube Music. Может помочь, если YouTube заблокирован"
-        ],
-        "fixed": [
-          "Определение завершения входа в YouTube Music",
-          "Скорость скачивания с YouTube Music",
-          "Постраничная загрузка 'моих' разделов в YouTube Music"
+          "Высокое потребление CPU на MacOS",
+          "Физические кнопки Play/Pause на MacOS теперь должны работать",
+          "'Прокси для сервера Murglar' теперь корректно применяется при скачивании WebView",
+          "Множество мелких исправлений и обновлений библиотек"
         ],
         "changed": [
-          "Выбор ссылок на контент в Яндекс Музыке. Может помочь при активных белых списках РКН"
+          "Настройка форматов для плеера/загрузчика - теперь можно выбрать какие форматы и в каком порядке должны использоваться",
+          "Версия библиотеки плагинов поднята до 9.0 - требуется обновление плагинов"
         ],
-        "removed": []
-      },
-      {
-        "version": "4.4.143",
-        "datetime": "2026-01-11T19:32:58.723213200Z",
-        "info": [],
-        "added": [
-          "Поддержка YouTube Music (радио/миксы/подкасты еще требуют доработки)",
-          "Возможность использовать собственный прокси",
-          "Настройка 'Сохранять всех артистов в одно поле тега'"
-        ],
-        "fixed": [
-          "Вход в Звук через web",
-          "Идентификатор трека в MPRIS сессии на Linux больше не должен вызывать ошибки"
-        ],
-        "changed": [],
         "removed": []
       }
     ],
     "changeLogEn": [
       {
-        "version": "4.7.146",
-        "datetime": "2026-02-03T00:02:27.561414Z",
+        "version": "6.0.155",
+        "datetime": "2026-07-04T17:53:20.732574500Z",
         "info": [],
         "added": [
-          "'Mood and genre' section, personal radio and radio by tracks/albums/artists/playlists, support for podcasts/radio/mixes in YouTube Music",
-          "'Do not show videos' setting in YouTube Music",
-          "SOCKS support in user proxies",
-          "Custom arguments support for WebView"
+          "Murglar Pass is now available for all services - listen to music in high quality, even if it's not available in the current service",
+          "Basic Tidal support. More sections will be added later",
+          "'Library' section - all your tracks/albums/artists/playlists from all connected services in one section",
+          "Referral system - invite friends and get rewards in the form of Murglar Pass extension. Details can be found on the profile screen"
         ],
         "fixed": [
-          "Detection of YouTube Premium presence and issues with YouTube Music playback from version 4.6.145",
-          "Paged loading of 'my' sections in YouTube Music",
-          "Track search now also searches videos, playlist search now also searches playlists 'from YouTube Music'",
-          "Loading of own tracks and tracks of artist in SoundCloud"
+          "High CPU usage on MacOS",
+          "Physical Play/Pause buttons on MacOS should now work",
+          "'Proxy for Murglar server' is now correctly applied when downloading WebView",
+          "Numerous minor fixes and library updates"
         ],
-        "changed": [],
-        "removed": []
-      },
-      {
-        "version": "4.5.144",
-        "datetime": "2026-01-18T17:34:11.151387200Z",
-        "info": [],
-        "added": [
-          "'Replace content domain' setting in YouTube Music. May help if YouTube is blocked"
+        "changed": [
+          "Format settings for player/downloader - you can now choose which formats and in what order should be used",
+          "Plugin library version raised to 9.0 - plugins update required"
         ],
-        "fixed": [
-          "YouTube Music authorization completion detection",
-          "Download speed from YouTube Music",
-          "Paged loading of 'my' sections in YouTube Music"
-        ],
-        "changed": [],
-        "removed": []
-      },
-      {
-        "version": "4.4.143",
-        "datetime": "2026-01-11T19:32:58.731713200Z",
-        "info": [],
-        "added": [
-          "YouTube Music support (radio/mixes/podcasts still need fixes)",
-          "Ability to use your own proxy",
-          "Setting 'Write all artists to single field in tags'"
-        ],
-        "fixed": [
-          "Login via web in Zvuk",
-          "Track ID in MPRIS session on Linux should no longer cause errors"
-        ],
-        "changed": [],
         "removed": []
       }
     ],
-    "versionCode": 146,
-    "versionName": "4.7",
-    "lastUpdated": "2026-02-03T00:37:22.845716037Z",
+    "versionCode": 155,
+    "versionName": "6.0",
+    "lastUpdated": "2026-07-04T18:22:36.883041936Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

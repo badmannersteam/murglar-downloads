@@ -14,40 +14,57 @@
   "beta": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.1.156/Murglar-Desktop-6.1.156-windows-x64.zip",
-        "hash": "4D0D5B7E3E278EF2B72B39B1451656E82E4ADBC4",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.2.157/Murglar-Desktop-6.2.157-windows-x64.zip",
+        "hash": "0B598AAAA47C5B9C7E235D7D99CC4538B0CBD14C",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.1.156/Murglar-Desktop-6.1.156-mac-x64.dmg",
-        "hash": "02A87E01F1CF4DEFF2C3DA8B86C2FA43CE96577F",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.2.157/Murglar-Desktop-6.2.157-mac-x64.dmg",
+        "hash": "0DA5DFF88FE062D0A6BCB48B0868FFA57074599D",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.1.156/Murglar-Desktop-6.1.156-mac-arm64.dmg",
-        "hash": "A9C573CE787775FC5038FD4D32A9F57A1C22BCD3",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.2.157/Murglar-Desktop-6.2.157-mac-arm64.dmg",
+        "hash": "151CADB812CC92C617ACCCC0223CD1741E43EE94",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.1.156/Murglar-Desktop-6.1.156-linux-x64.appimage",
-        "hash": "AC763BEEF685B14BB1D1A28AE2F31B6233FACC51",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.2.157/Murglar-Desktop-6.2.157-linux-x64.appimage",
+        "hash": "C18A62FB4ECA3344DE4178F979EAD2BBB2C70483",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.1.156/Murglar-Desktop-6.1.156-all-platforms.jar",
-        "hash": "C625AE96C06E19EFB08FC4B2B7E8A4D3C864E815",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.2.157/Murglar-Desktop-6.2.157-all-platforms.jar",
+        "hash": "D7E5D7B9E398B498234C0CD51EA81AEFF7882B2D",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "6.2.157",
+        "datetime": "2026-08-17T01:57:59.203990900Z",
+        "info": [],
+        "added": [
+          "Настройка скрытия повторов в разделе 'Библиотека'",
+          "Раздел 'Обзор' в Tidal"
+        ],
+        "fixed": [
+          "Поиск в Tidal",
+          "Раздел рекомендаций и ошибки парсинга в Qobuz"
+        ],
+        "changed": [
+          "В Deezer теперь поддерживаются списки размером до 10000 элементов"
+        ],
+        "removed": []
+      },
       {
         "version": "6.1.156",
         "datetime": "2026-08-07T22:01:22.199606Z",
@@ -64,7 +81,7 @@
           "Множество мелких исправлений и обновлений библиотек"
         ],
         "changed": [
-          "Формат даты в имени файла экспорта списков на ГГГГ.ММ.ДД вместо ГГ.ММ.ДДДД для естественной сортировки"
+          "Формат даты в имени файла экспорта списков на ГГГГ.ММ.ДД вместо ДД.ММ.ГГГГ для естественной сортировки"
         ],
         "removed": []
       },
@@ -93,6 +110,23 @@
     ],
     "changeLogEn": [
       {
+        "version": "6.2.157",
+        "datetime": "2026-08-17T01:57:59.215589200Z",
+        "info": [],
+        "added": [
+          "Setting to hide duplicates in the 'Library' section",
+          "'Explore' section in Tidal"
+        ],
+        "fixed": [
+          "Search in Tidal",
+          "Recommendations section and parsing errors in Qobuz"
+        ],
+        "changed": [
+          "Deezer now supports lists with up to 10000 items"
+        ],
+        "removed": []
+      },
+      {
         "version": "6.1.156",
         "datetime": "2026-08-07T22:01:22.205604900Z",
         "info": [],
@@ -107,7 +141,9 @@
           "Displaying artists and covers for tracks manually uploaded to YouTube Music",
           "Numerous minor fixes and library updates"
         ],
-        "changed": [],
+        "changed": [
+          "Date format in the export file name to YYYY.MM.DD instead of DD.MM.YYYY for natural sorting"
+        ],
         "removed": []
       },
       {
@@ -133,9 +169,9 @@
         "removed": []
       }
     ],
-    "versionCode": 156,
-    "versionName": "6.1",
-    "lastUpdated": "2026-08-07T22:33:03.761485425Z",
+    "versionCode": 157,
+    "versionName": "6.2",
+    "lastUpdated": "2026-08-17T02:25:47.076709065Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

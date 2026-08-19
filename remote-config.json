@@ -178,40 +178,68 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.5.152/Murglar-Desktop-5.5.152-windows-x64.zip",
-        "hash": "F879F1A2A91A2DCBBB6FD44A5C7B992E95371BBB",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.3.158/Murglar-Desktop-6.3.158-windows-x64.zip",
+        "hash": "AB3C0FA7F9AE7FB34DA660EDB327051F7BB6855F",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.5.152/Murglar-Desktop-5.5.152-mac-x64.dmg",
-        "hash": "79490754FAC1351BFC272FD626A063206991F836",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.3.158/Murglar-Desktop-6.3.158-mac-x64.dmg",
+        "hash": "ACD43D2182B27F94B40E0E26AAA7D094814B7558",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.5.152/Murglar-Desktop-5.5.152-mac-arm64.dmg",
-        "hash": "D5BD6BC3922320CCF7AE1301E55924A26338FDBB",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.3.158/Murglar-Desktop-6.3.158-mac-arm64.dmg",
+        "hash": "7EBE23FBDCF4B16593A1C596C0D9DBEDA8EED057",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.5.152/Murglar-Desktop-5.5.152-linux-x64.appimage",
-        "hash": "8BA2C80DCE4E324D4B868BF3992CF30ED6CFE282",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.3.158/Murglar-Desktop-6.3.158-linux-x64.appimage",
+        "hash": "2555AC4E17FF0373F99F175CE973146BBB6CB360",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-5.5.152/Murglar-Desktop-5.5.152-all-platforms.jar",
-        "hash": "2A1D71949D96DB663AF3F2412175B0E186420EDA",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.3.158/Murglar-Desktop-6.3.158-all-platforms.jar",
+        "hash": "01842DCA78D7FC0B8B5D7F06C49D4B10A44F61C6",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "6.3.158",
+        "datetime": "2026-08-19T22:18:29.201061900Z",
+        "info": [
+          "В связи с изменениями в Murglar Pass настройки форматов для каждого сервиса могли быть сброшены - проверьте их, если контент скачивается или воспроизводится не в том формате."
+        ],
+        "added": [
+          "Murglar Pass теперь доступен для всех сервисов - слушайте музыку в высоком качестве, даже если оно недоступно в текущем сервисе",
+          "Поддержка Tidal и Qobuz",
+          "Раздел 'Библиотека' - все ваши треки/альбомы/исполнители/плейлисты из всех подключенных сервисов в одном разделе",
+          "Реферальная система - приглашайте друзей и получайте награды в виде продления Murglar Pass. Подробности можно найти на экране профиля"
+        ],
+        "fixed": [
+          "Воспроизведение и скачивание из YouTube Music с бесплатных аккаунтов в некоторых случаях",
+          "Отображение артистов и обложек у треков, загруженных вручную в YouTube Music",
+          "Высокое потребление CPU на MacOS",
+          "Физические кнопки Play/Pause на MacOS теперь должны работать",
+          "'Прокси для сервера Murglar' теперь корректно применяется при скачивании WebView",
+          "Множество мелких исправлений и обновлений библиотек и локализаций"
+        ],
+        "changed": [
+          "Версия библиотеки плагинов поднята до 9.0 - требуется обновление плагинов",
+          "В Deezer теперь поддерживаются списки размером до 10000 элементов",
+          "Настройка форматов для плеера/загрузчика - теперь можно выбрать какие форматы и в каком порядке должны использоваться",
+          "Формат даты в имени файла экспорта списков на ГГГГ.ММ.ДД вместо ДД.ММ.ГГГГ для естественной сортировки"
+        ],
+        "removed": []
+      },
       {
         "version": "5.5.152",
         "datetime": "2026-05-31T13:31:01.101487600Z",
@@ -443,6 +471,34 @@
     ],
     "changeLogEn": [
       {
+        "version": "6.3.158",
+        "datetime": "2026-08-19T22:18:29.213062300Z",
+        "info": [
+          "Due to changes in Murglar Pass, the format settings for each service may have been reset - please check them if content is downloading or playing in the wrong format."
+        ],
+        "added": [
+          "Murglar Pass is now available for all services - listen to music in high quality, even if it's not available in the current service",
+          "Tidal and Qobuz support",
+          "'Library' section - all your tracks/albums/artists/playlists from all connected services in one section",
+          "Referral system - invite friends and get rewards in the form of Murglar Pass extension. Details can be found on the profile screen"
+        ],
+        "fixed": [
+          "Playback and downloading from YouTube Music using free accounts in some cases",
+          "Displaying artists and covers for tracks manually uploaded to YouTube Music",
+          "High CPU usage on MacOS",
+          "Physical Play/Pause buttons on MacOS should now work",
+          "'Proxy for Murglar server' is now correctly applied when downloading WebView",
+          "Numerous minor fixes and library and localizations updates"
+        ],
+        "changed": [
+          "Plugin library version raised to 9.0 - plugins update required",
+          "Deezer now supports lists with up to 10000 items",
+          "Format settings for player/downloader - you can now choose which formats and in what order should be used",
+          "Date format in the export file name to YYYY.MM.DD instead of DD.MM.YYYY for natural sorting"
+        ],
+        "removed": []
+      },
+      {
         "version": "5.5.152",
         "datetime": "2026-05-31T13:31:01.112989400Z",
         "info": [],
@@ -669,9 +725,9 @@
         "removed": []
       }
     ],
-    "versionCode": 152,
-    "versionName": "5.5",
-    "lastUpdated": "2026-05-31T13:58:51.855073655Z",
+    "versionCode": 158,
+    "versionName": "6.3",
+    "lastUpdated": "2026-08-19T22:52:01.342770741Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

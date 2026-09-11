@@ -178,40 +178,59 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.3.158/Murglar-Desktop-6.3.158-windows-x64.zip",
-        "hash": "AB3C0FA7F9AE7FB34DA660EDB327051F7BB6855F",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.4.159/Murglar-Desktop-6.4.159-windows-x64.zip",
+        "hash": "5C2A56EC2AB7F2D92B299652F05F1DA9D625C90F",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.3.158/Murglar-Desktop-6.3.158-mac-x64.dmg",
-        "hash": "ACD43D2182B27F94B40E0E26AAA7D094814B7558",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.4.159/Murglar-Desktop-6.4.159-mac-x64.dmg",
+        "hash": "9C8F4DA068FC0CC090503EEF93938AA01EB952DA",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.3.158/Murglar-Desktop-6.3.158-mac-arm64.dmg",
-        "hash": "7EBE23FBDCF4B16593A1C596C0D9DBEDA8EED057",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.4.159/Murglar-Desktop-6.4.159-mac-arm64.dmg",
+        "hash": "7FD2C6720A1F8A72E8122C4DDDB8A5FE72BECF50",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.3.158/Murglar-Desktop-6.3.158-linux-x64.appimage",
-        "hash": "2555AC4E17FF0373F99F175CE973146BBB6CB360",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.4.159/Murglar-Desktop-6.4.159-linux-x64.appimage",
+        "hash": "FFED0D0C88B633BE309F011A0271975D9DF814F9",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.3.158/Murglar-Desktop-6.3.158-all-platforms.jar",
-        "hash": "01842DCA78D7FC0B8B5D7F06C49D4B10A44F61C6",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.4.159/Murglar-Desktop-6.4.159-all-platforms.jar",
+        "hash": "AAB153F296707D3CF1A9CE027380B9F35D3CFB46",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "6.4.159",
+        "datetime": "2026-09-11T15:31:30.818365300Z",
+        "info": [],
+        "added": [
+          "Поддержка ссылок dzr.page.link",
+          "Скролл к текущему треку при открытии панели очереди воспроизведения"
+        ],
+        "fixed": [
+          "Воспроизведение и скачивание из YouTube Music в некоторых случаях",
+          "Вход в Звук через web (ошибка 'Что-то мешает загрузке')",
+          "Краш при открытии настроек Tidal при использовании аккаунтов некоторых регионов",
+          "Загрузка текстов песен с MusixMatch",
+          "Определение артистов, кол-ва дисков и UPC в Qobuz, а также увеличено разрешение больших обложек до 1400p",
+          "Нумерация при использовании переменных %playlistTrack% в шаблонах скачивания"
+        ],
+        "changed": [],
+        "removed": []
+      },
       {
         "version": "6.3.158",
         "datetime": "2026-08-19T22:18:29.201061900Z",
@@ -471,6 +490,25 @@
     ],
     "changeLogEn": [
       {
+        "version": "6.4.159",
+        "datetime": "2026-09-11T15:31:30.835829800Z",
+        "info": [],
+        "added": [
+          "Support for dzr.page.link links",
+          "Scroll to the current track when opening the now playing panel"
+        ],
+        "fixed": [
+          "Playback and downloading from YouTube Music in some cases",
+          "Login via web in Zvuk ('Something is preventing loading' error)",
+          "Crash when opening Tidal settings when using accounts from certain regions",
+          "Getting lyrics from MusixMatch",
+          "Detecting artists, number of discs, and UPC in Qobuz, as well as increased large covers resolution to 1400p",
+          "Track numbering when using %playlistTrack% variables in download templates"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "6.3.158",
         "datetime": "2026-08-19T22:18:29.213062300Z",
         "info": [
@@ -725,9 +763,9 @@
         "removed": []
       }
     ],
-    "versionCode": 158,
-    "versionName": "6.3",
-    "lastUpdated": "2026-08-19T22:52:01.342770741Z",
+    "versionCode": 159,
+    "versionName": "6.4",
+    "lastUpdated": "2026-09-11T17:40:26.790515389Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

@@ -178,40 +178,55 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.4.159/Murglar-Desktop-6.4.159-windows-x64.zip",
-        "hash": "5C2A56EC2AB7F2D92B299652F05F1DA9D625C90F",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.5.160/Murglar-Desktop-6.5.160-windows-x64.zip",
+        "hash": "BBAB3F6A5F8027F7AEA8208CF265B063C11DCBE2",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.4.159/Murglar-Desktop-6.4.159-mac-x64.dmg",
-        "hash": "9C8F4DA068FC0CC090503EEF93938AA01EB952DA",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.5.160/Murglar-Desktop-6.5.160-mac-x64.dmg",
+        "hash": "9D637A9839CD0A65331F2A114CBE39C82255F37D",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.4.159/Murglar-Desktop-6.4.159-mac-arm64.dmg",
-        "hash": "7FD2C6720A1F8A72E8122C4DDDB8A5FE72BECF50",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.5.160/Murglar-Desktop-6.5.160-mac-arm64.dmg",
+        "hash": "72E199EFF8A63CDDA5A9AC77233A9DFAA1AD03D6",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.4.159/Murglar-Desktop-6.4.159-linux-x64.appimage",
-        "hash": "FFED0D0C88B633BE309F011A0271975D9DF814F9",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.5.160/Murglar-Desktop-6.5.160-linux-x64.appimage",
+        "hash": "AB644D6881DF567574ED1C1AAEB4A93AC00736AA",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.4.159/Murglar-Desktop-6.4.159-all-platforms.jar",
-        "hash": "AAB153F296707D3CF1A9CE027380B9F35D3CFB46",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.5.160/Murglar-Desktop-6.5.160-all-platforms.jar",
+        "hash": "0C8D6D8B19E0C3B1502900D09C94B47D19561FB1",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "6.5.160",
+        "datetime": "2026-09-25T00:10:34.079603800Z",
+        "info": [],
+        "added": [
+          "Лайки и отображение в разделе библиотеки плейлистов из Qobuz",
+          "Вход по почте в Звук, т.к. Звук убрал такую возможность из входа через Web)"
+        ],
+        "fixed": [
+          "Загрузка FLAC в Звуке",
+          "Поиск в Яндекс Музыке в некоторых случаях"
+        ],
+        "changed": [],
+        "removed": []
+      },
       {
         "version": "6.4.159",
         "datetime": "2026-09-11T15:31:30.818365300Z",
@@ -490,6 +505,21 @@
     ],
     "changeLogEn": [
       {
+        "version": "6.5.160",
+        "datetime": "2026-09-25T00:10:34.103602600Z",
+        "info": [],
+        "added": [
+          "Qobuz playlists likes and displaying in the library section",
+          "Login via email in Zvuk, since Zvuk removed this option from the web login"
+        ],
+        "fixed": [
+          "FLAC obtaining from Zvuk",
+          "Search in Yandex Music in some cases"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "6.4.159",
         "datetime": "2026-09-11T15:31:30.835829800Z",
         "info": [],
@@ -763,9 +793,9 @@
         "removed": []
       }
     ],
-    "versionCode": 159,
-    "versionName": "6.4",
-    "lastUpdated": "2026-09-11T17:40:26.790515389Z",
+    "versionCode": 160,
+    "versionName": "6.5",
+    "lastUpdated": "2026-09-25T00:38:27.243366499Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

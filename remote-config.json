@@ -178,40 +178,59 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.5.160/Murglar-Desktop-6.5.160-windows-x64.zip",
-        "hash": "BBAB3F6A5F8027F7AEA8208CF265B063C11DCBE2",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.6.161/Murglar-Desktop-6.6.161-windows-x64.zip",
+        "hash": "3886206D73E41EB2279174458E98523F0D0A6D9D",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.5.160/Murglar-Desktop-6.5.160-mac-x64.dmg",
-        "hash": "9D637A9839CD0A65331F2A114CBE39C82255F37D",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.6.161/Murglar-Desktop-6.6.161-mac-x64.dmg",
+        "hash": "8B5C455F20CCEA580995008E6726846AD3A6577E",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.5.160/Murglar-Desktop-6.5.160-mac-arm64.dmg",
-        "hash": "72E199EFF8A63CDDA5A9AC77233A9DFAA1AD03D6",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.6.161/Murglar-Desktop-6.6.161-mac-arm64.dmg",
+        "hash": "97117A379149D5FFD7D865B4FE4D2BB7FB871C27",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.5.160/Murglar-Desktop-6.5.160-linux-x64.appimage",
-        "hash": "AB644D6881DF567574ED1C1AAEB4A93AC00736AA",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.6.161/Murglar-Desktop-6.6.161-linux-x64.appimage",
+        "hash": "B4901E9FE42FC7632D187699A69715C358B8FE34",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.5.160/Murglar-Desktop-6.5.160-all-platforms.jar",
-        "hash": "0C8D6D8B19E0C3B1502900D09C94B47D19561FB1",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.6.161/Murglar-Desktop-6.6.161-all-platforms.jar",
+        "hash": "2FC58EE63C445472C5EFFA6315F45AD7EC39B5C1",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "6.6.161",
+        "datetime": "2026-10-08T19:02:54.898583300Z",
+        "info": [],
+        "added": [
+          "AMOLED тема",
+          "Кнопка перехода к текущему треку на экране очереди воспроизведения",
+          "Кнопка воспроизведения текущего раздела в перемешанном порядке",
+          "Кнопка очистки завершенных загрузок и выделение цветом ошибок скачивания",
+          "Текущий путь навигации в заголовке раздела",
+          "Иконка текущего сервиса в плеере"
+        ],
+        "fixed": [
+          "Воспроизведение и скачивание из Звука",
+          "Перемотка и регулировка громкости через медиасессию на Linux"
+        ],
+        "changed": [],
+        "removed": []
+      },
       {
         "version": "6.5.160",
         "datetime": "2026-09-25T00:10:34.079603800Z",
@@ -505,6 +524,25 @@
     ],
     "changeLogEn": [
       {
+        "version": "6.6.161",
+        "datetime": "2026-10-08T19:02:54.911936600Z",
+        "info": [],
+        "added": [
+          "AMOLED theme",
+          "Button to scroll to the current track on the now playing screen",
+          "Buttons to play the current section in a shuffled order",
+          "Button to clear completed downloads and coloring of download errors",
+          "Current navigation path in the section header",
+          "Icon of the current service in the player"
+        ],
+        "fixed": [
+          "Воспроизведение и скачивание из Звука",
+          "Перемотка и регулировка громкости через медиасессию на Linux"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "6.5.160",
         "datetime": "2026-09-25T00:10:34.103602600Z",
         "info": [],
@@ -793,9 +831,9 @@
         "removed": []
       }
     ],
-    "versionCode": 160,
-    "versionName": "6.5",
-    "lastUpdated": "2026-09-25T00:38:27.243366499Z",
+    "versionCode": 161,
+    "versionName": "6.6",
+    "lastUpdated": "2026-10-08T19:56:27.317138917Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

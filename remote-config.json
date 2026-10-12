@@ -178,40 +178,51 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.6.161/Murglar-Desktop-6.6.161-windows-x64.zip",
-        "hash": "3886206D73E41EB2279174458E98523F0D0A6D9D",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.7.162/Murglar-Desktop-6.7.162-windows-x64.zip",
+        "hash": "6DCD1A5AC612498A05F2D355F18F2CA306E754FC",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.6.161/Murglar-Desktop-6.6.161-mac-x64.dmg",
-        "hash": "8B5C455F20CCEA580995008E6726846AD3A6577E",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.7.162/Murglar-Desktop-6.7.162-mac-x64.dmg",
+        "hash": "8059EFB11CD320564588987CB0BAAAEEEA6A6D02",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.6.161/Murglar-Desktop-6.6.161-mac-arm64.dmg",
-        "hash": "97117A379149D5FFD7D865B4FE4D2BB7FB871C27",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.7.162/Murglar-Desktop-6.7.162-mac-arm64.dmg",
+        "hash": "39623C417B5D44B9847047607D7D28AFA40EBAC6",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.6.161/Murglar-Desktop-6.6.161-linux-x64.appimage",
-        "hash": "B4901E9FE42FC7632D187699A69715C358B8FE34",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.7.162/Murglar-Desktop-6.7.162-linux-x64.appimage",
+        "hash": "1B4E4643A23C461FADB1C4CAFC03B11DCEEDEAE4",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.6.161/Murglar-Desktop-6.6.161-all-platforms.jar",
-        "hash": "2FC58EE63C445472C5EFFA6315F45AD7EC39B5C1",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.7.162/Murglar-Desktop-6.7.162-all-platforms.jar",
+        "hash": "CF81C1AAE8C8826BA4B289C7048251444E11BE10",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "6.7.162",
+        "datetime": "2026-10-12T22:04:32.417287400Z",
+        "info": [],
+        "added": [],
+        "fixed": [
+          "Моя волна и загрузка раздела радио в Яндекс Музыке"
+        ],
+        "changed": [],
+        "removed": []
+      },
       {
         "version": "6.6.161",
         "datetime": "2026-10-08T19:02:54.898583300Z",
@@ -524,6 +535,17 @@
     ],
     "changeLogEn": [
       {
+        "version": "6.7.162",
+        "datetime": "2026-10-12T22:04:32.430366100Z",
+        "info": [],
+        "added": [],
+        "fixed": [
+          "My Vibe and radio section loading in Yandex Music"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "6.6.161",
         "datetime": "2026-10-08T19:02:54.911936600Z",
         "info": [],
@@ -831,9 +853,9 @@
         "removed": []
       }
     ],
-    "versionCode": 161,
-    "versionName": "6.6",
-    "lastUpdated": "2026-10-08T19:56:27.317138917Z",
+    "versionCode": 162,
+    "versionName": "6.7",
+    "lastUpdated": "2026-10-12T22:33:08.508848869Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

@@ -178,40 +178,53 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.7.162/Murglar-Desktop-6.7.162-windows-x64.zip",
-        "hash": "6DCD1A5AC612498A05F2D355F18F2CA306E754FC",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.8.163/Murglar-Desktop-6.8.163-windows-x64.zip",
+        "hash": "15CDC663CA5D05E61AEFDD38B9F9B937FA551E56",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.7.162/Murglar-Desktop-6.7.162-mac-x64.dmg",
-        "hash": "8059EFB11CD320564588987CB0BAAAEEEA6A6D02",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.8.163/Murglar-Desktop-6.8.163-mac-x64.dmg",
+        "hash": "91E728839E8A0F67E857325F2CA790F8DFF9AD74",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.7.162/Murglar-Desktop-6.7.162-mac-arm64.dmg",
-        "hash": "39623C417B5D44B9847047607D7D28AFA40EBAC6",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.8.163/Murglar-Desktop-6.8.163-mac-arm64.dmg",
+        "hash": "2F0845E24856955D20213FF971BE9780667E7E89",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.7.162/Murglar-Desktop-6.7.162-linux-x64.appimage",
-        "hash": "1B4E4643A23C461FADB1C4CAFC03B11DCEEDEAE4",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.8.163/Murglar-Desktop-6.8.163-linux-x64.appimage",
+        "hash": "541AF856199F635D551D4DF9C7680A8E416C6E8B",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.7.162/Murglar-Desktop-6.7.162-all-platforms.jar",
-        "hash": "CF81C1AAE8C8826BA4B289C7048251444E11BE10",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.8.163/Murglar-Desktop-6.8.163-all-platforms.jar",
+        "hash": "8C0880FE34A3F79E808D03E8AA6D9729FD1E320F",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "6.8.163",
+        "datetime": "2026-10-14T21:46:55.377467400Z",
+        "info": [],
+        "added": [
+          "Разделы артиста (альбомы, плейлисты, похожие артисты), рекомендации и лента в SoundCloud"
+        ],
+        "fixed": [
+          "Воспроизведение и скачивание из SoundCloud. Проверьте настройки форматов - они могли быть сброшены"
+        ],
+        "changed": [],
+        "removed": []
+      },
       {
         "version": "6.7.162",
         "datetime": "2026-10-12T22:04:32.417287400Z",
@@ -535,6 +548,19 @@
     ],
     "changeLogEn": [
       {
+        "version": "6.8.163",
+        "datetime": "2026-10-14T21:46:55.393917700Z",
+        "info": [],
+        "added": [
+          "Artist (albums, playlists, similar artists), recommendations and feed sections on SoundCloud"
+        ],
+        "fixed": [
+          "Playback and downloading from SoundCloud. Check format settings - they may have been reset"
+        ],
+        "changed": [],
+        "removed": []
+      },
+      {
         "version": "6.7.162",
         "datetime": "2026-10-12T22:04:32.430366100Z",
         "info": [],
@@ -558,8 +584,8 @@
           "Icon of the current service in the player"
         ],
         "fixed": [
-          "Воспроизведение и скачивание из Звука",
-          "Перемотка и регулировка громкости через медиасессию на Linux"
+          "Playback and downloading from Zvuk",
+          "Seeking and adjusting the volume via a media session on Linux"
         ],
         "changed": [],
         "removed": []
@@ -853,9 +879,9 @@
         "removed": []
       }
     ],
-    "versionCode": 162,
-    "versionName": "6.7",
-    "lastUpdated": "2026-10-12T22:33:08.508848869Z",
+    "versionCode": 163,
+    "versionName": "6.8",
+    "lastUpdated": "2026-10-14T22:16:14.751166595Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

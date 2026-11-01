@@ -14,164 +14,90 @@
   "beta": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.2.157/Murglar-Desktop-6.2.157-windows-x64.zip",
-        "hash": "0B598AAAA47C5B9C7E235D7D99CC4538B0CBD14C",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.10.165/Murglar-Desktop-6.10.165-windows-x64.zip",
+        "hash": "86E3D3768C221C0258C602CB1A99B091A74C7732",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.2.157/Murglar-Desktop-6.2.157-mac-x64.dmg",
-        "hash": "0DA5DFF88FE062D0A6BCB48B0868FFA57074599D",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.10.165/Murglar-Desktop-6.10.165-mac-x64.dmg",
+        "hash": "96B1B4BF87AC20F9E37D3384F322E0D8ADC48A1C",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.2.157/Murglar-Desktop-6.2.157-mac-arm64.dmg",
-        "hash": "151CADB812CC92C617ACCCC0223CD1741E43EE94",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.10.165/Murglar-Desktop-6.10.165-mac-arm64.dmg",
+        "hash": "94519982AAE4DBD0610B307E71397760F739F97C",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.2.157/Murglar-Desktop-6.2.157-linux-x64.appimage",
-        "hash": "C18A62FB4ECA3344DE4178F979EAD2BBB2C70483",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.10.165/Murglar-Desktop-6.10.165-linux-x64.appimage",
+        "hash": "896519E2FFC723992ADBBD78A9356FAE3EA227F4",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.2.157/Murglar-Desktop-6.2.157-all-platforms.jar",
-        "hash": "D7E5D7B9E398B498234C0CD51EA81AEFF7882B2D",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.10.165/Murglar-Desktop-6.10.165-all-platforms.jar",
+        "hash": "F4AE0C9E546716645C8754779874FE452E6DE12E",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
       {
-        "version": "6.2.157",
-        "datetime": "2026-08-17T01:57:59.203990900Z",
+        "version": "6.10.165",
+        "datetime": "2026-11-01T20:28:45.392877400Z",
         "info": [],
         "added": [
-          "Настройка скрытия повторов в разделе 'Библиотека'",
-          "Раздел 'Обзор' в Tidal"
+          "Множественное выделение в списках и очереди - для активации выделения используйте Ctrl + клик или долгое нажатие на элемент списка, для выделения диапазонов используйте Shift + клик или долгое нажатие",
+          "Возможность удаления треков из очереди",
+          "Ограниченная поддержка прокси с авторизацией - поддерживается везде, кроме входа через Web",
+          "Поддержка FLAC 24-bit в Deezer",
+          "Получение текстов песен для бесплатных аккаунтов Deezer",
+          "Разделы рекомендаций и обзора в Deezer"
         ],
         "fixed": [
-          "Поиск в Tidal",
-          "Раздел рекомендаций и ошибки парсинга в Qobuz"
+          "Уменьшено потребление CPU при воспроизведении из Deezer или при включенном прокси для контента",
+          "Закрытие плеера вместо переключения на следующий трек, если у трека в очереди не было доступных форматов",
+          "Улучшена фильтрация дубликатов в разделах библиотеки",
+          "Вход в SoundCloud через Web",
+          "Доработан обход капчи в SoundCloud для лайков - если лайки все еще не работают, то попробуйте перезайти в аккаунт через Web, используя чистый IP"
         ],
-        "changed": [
-          "В Deezer теперь поддерживаются списки размером до 10000 элементов"
-        ],
-        "removed": []
-      },
-      {
-        "version": "6.1.156",
-        "datetime": "2026-08-07T22:01:22.199606Z",
-        "info": [],
-        "added": [
-          "Базовая поддержка Qobuz. Больше разделов будет добавлено позднее"
-        ],
-        "fixed": [
-          "Скачивание из Tidal для некоторых треков",
-          "Воспроизведение и скачивание из YouTube Music с бесплатных аккаунтов в некоторых случаях",
-          "Отображение общего размера файла при скачивании DASH и HLS",
-          "Поиск в Tidal, если запрос содержал знаки пунктуации",
-          "Отображение артистов и обложек у треков, загруженных вручную в YouTube Music",
-          "Множество мелких исправлений и обновлений библиотек"
-        ],
-        "changed": [
-          "Формат даты в имени файла экспорта списков на ГГГГ.ММ.ДД вместо ДД.ММ.ГГГГ для естественной сортировки"
-        ],
-        "removed": []
-      },
-      {
-        "version": "6.0.155",
-        "datetime": "2026-07-04T17:53:20.724072400Z",
-        "info": [],
-        "added": [
-          "Murglar Pass теперь доступен для всех сервисов - слушайте музыку в высоком качестве, даже если оно недоступно в текущем сервисе",
-          "Базовая поддержка Tidal. Больше разделов будет добавлено позднее",
-          "Раздел 'Библиотека' - все ваши треки/альбомы/исполнители/плейлисты из всех подключенных сервисов в одном разделе",
-          "Реферальная система - приглашайте друзей и получайте награды в виде продления Murglar Pass. Подробности можно найти на экране профиля"
-        ],
-        "fixed": [
-          "Высокое потребление CPU на MacOS",
-          "Физические кнопки Play/Pause на MacOS теперь должны работать",
-          "'Прокси для сервера Murglar' теперь корректно применяется при скачивании WebView",
-          "Множество мелких исправлений и обновлений библиотек"
-        ],
-        "changed": [
-          "Настройка форматов для плеера/загрузчика - теперь можно выбрать какие форматы и в каком порядке должны использоваться",
-          "Версия библиотеки плагинов поднята до 9.0 - требуется обновление плагинов"
-        ],
+        "changed": [],
         "removed": []
       }
     ],
     "changeLogEn": [
       {
-        "version": "6.2.157",
-        "datetime": "2026-08-17T01:57:59.215589200Z",
+        "version": "6.10.165",
+        "datetime": "2026-11-01T20:28:45.394378Z",
         "info": [],
         "added": [
-          "Setting to hide duplicates in the 'Library' section",
-          "'Explore' section in Tidal"
+          "Multiselection in lists and Now playing - use Ctrl + click or a long press on a list item to activate selection, and Shift + click or a long press to select ranges",
+          "Ability to remove tracks from the queue",
+          "Limited support for proxies with authentication - supported everywhere except login via Web",
+          "Support for 24-bit FLAC in Deezer",
+          "Getting lyrics for free Deezer accounts",
+          "Recommendations and discover sections in Deezer"
         ],
         "fixed": [
-          "Search in Tidal",
-          "Recommendations section and parsing errors in Qobuz"
+          "Reduced CPU usage when playing from Deezer or when a proxy for content is enabled",
+          "Player closing instead of switching to the next track when a track in the queue had no available formats",
+          "Improved duplicate filtering in library sections",
+          "Login via Web in SoundCloud",
+          "Improved captcha bypass for likes in SoundCloud - if likes are still not working, try logging into your account again via Web using a clean IP address"
         ],
-        "changed": [
-          "Deezer now supports lists with up to 10000 items"
-        ],
-        "removed": []
-      },
-      {
-        "version": "6.1.156",
-        "datetime": "2026-08-07T22:01:22.205604900Z",
-        "info": [],
-        "added": [
-          "Basic Qobuz support. More sections will be added later"
-        ],
-        "fixed": [
-          "Downloading from Tidal for certain tracks",
-          "Playback and downloading from YouTube Music using free accounts in some cases",
-          "Displaying the total file size when downloading DASH and HLS",
-          "Searching on Tidal when the query contains punctuation marks",
-          "Displaying artists and covers for tracks manually uploaded to YouTube Music",
-          "Numerous minor fixes and library updates"
-        ],
-        "changed": [
-          "Date format in the export file name to YYYY.MM.DD instead of DD.MM.YYYY for natural sorting"
-        ],
-        "removed": []
-      },
-      {
-        "version": "6.0.155",
-        "datetime": "2026-07-04T17:53:20.732574500Z",
-        "info": [],
-        "added": [
-          "Murglar Pass is now available for all services - listen to music in high quality, even if it's not available in the current service",
-          "Basic Tidal support. More sections will be added later",
-          "'Library' section - all your tracks/albums/artists/playlists from all connected services in one section",
-          "Referral system - invite friends and get rewards in the form of Murglar Pass extension. Details can be found on the profile screen"
-        ],
-        "fixed": [
-          "High CPU usage on MacOS",
-          "Physical Play/Pause buttons on MacOS should now work",
-          "'Proxy for Murglar server' is now correctly applied when downloading WebView",
-          "Numerous minor fixes and library updates"
-        ],
-        "changed": [
-          "Format settings for player/downloader - you can now choose which formats and in what order should be used",
-          "Plugin library version raised to 9.0 - plugins update required"
-        ],
+        "changed": [],
         "removed": []
       }
     ],
-    "versionCode": 157,
-    "versionName": "6.2",
-    "lastUpdated": "2026-08-17T02:25:47.076709065Z",
+    "versionCode": 165,
+    "versionName": "6.10",
+    "lastUpdated": "2026-11-01T21:17:14.337761182Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

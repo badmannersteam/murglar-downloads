@@ -14,40 +14,57 @@
   "beta": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.10.165/Murglar-Desktop-6.10.165-windows-x64.zip",
-        "hash": "86E3D3768C221C0258C602CB1A99B091A74C7732",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.11.166/Murglar-Desktop-6.11.166-windows-x64.zip",
+        "hash": "EFF9416E606886E4810701C05FD0F84DEC062C9C",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.10.165/Murglar-Desktop-6.10.165-mac-x64.dmg",
-        "hash": "96B1B4BF87AC20F9E37D3384F322E0D8ADC48A1C",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.11.166/Murglar-Desktop-6.11.166-mac-x64.dmg",
+        "hash": "D7E149FA2A2A6B64F9170EB93C32BAA5DFFEBD13",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.10.165/Murglar-Desktop-6.10.165-mac-arm64.dmg",
-        "hash": "94519982AAE4DBD0610B307E71397760F739F97C",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.11.166/Murglar-Desktop-6.11.166-mac-arm64.dmg",
+        "hash": "4D79313E14F90BEB3BF8726B7714EC2F8A257F1B",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.10.165/Murglar-Desktop-6.10.165-linux-x64.appimage",
-        "hash": "896519E2FFC723992ADBBD78A9356FAE3EA227F4",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.11.166/Murglar-Desktop-6.11.166-linux-x64.appimage",
+        "hash": "9564F7B53DB291EE6C1A59D941C95030F7213A93",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.10.165/Murglar-Desktop-6.10.165-all-platforms.jar",
-        "hash": "F4AE0C9E546716645C8754779874FE452E6DE12E",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.11.166/Murglar-Desktop-6.11.166-all-platforms.jar",
+        "hash": "35503B3319D589CF2EB28553844F1C2986D862D8",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "6.11.166",
+        "datetime": "2026-11-05T19:15:06.027904200Z",
+        "info": [],
+        "added": [
+          "Новый способ входа в SoundCloud через cookiе ('_soundcloud_session' от домена api-auth.soundcloud.com)"
+        ],
+        "fixed": [
+          "Еще одно исправления входа в SoundCloud через Web. Если получаете ошибку 401 от предыдущего входа - перезайдите в аккаунт используя Web или cookiе",
+          "Лишние/пропущенные уведомления сервисов о проигранных треках",
+          "Видимость уведомлений и дополнительных действий в меню из плагинов"
+        ],
+        "changed": [],
+        "removed": [
+          "Настройка 'Пропустить трек, если желаемый битрейт недоступен' - вместо нее отключите ненужные форматы в настройках сервиса - 'Приоритет форматов для загрузчика'"
+        ]
+      },
       {
         "version": "6.10.165",
         "datetime": "2026-11-01T20:28:45.392877400Z",
@@ -73,6 +90,23 @@
     ],
     "changeLogEn": [
       {
+        "version": "6.11.166",
+        "datetime": "2026-11-05T19:15:06.033430200Z",
+        "info": [],
+        "added": [
+          "New login method for SoundCloud via cookie ('_soundcloud_session' from the api-auth.soundcloud.com domain)"
+        ],
+        "fixed": [
+          "Another fix for login via Web in SoundCloud. If you get a 401 error with an existing session, relogin to your account via Web or cookie",
+          "Extra/missing service notifications about played tracks",
+          "Visibility of notifications and additional menu actions from plugins"
+        ],
+        "changed": [],
+        "removed": [
+          "'Skip track if the desired bitrate is unavailable' setting - instead, disable unwanted formats in service settings - 'Downloader format priority'"
+        ]
+      },
+      {
         "version": "6.10.165",
         "datetime": "2026-11-01T20:28:45.394378Z",
         "info": [],
@@ -95,9 +129,9 @@
         "removed": []
       }
     ],
-    "versionCode": 165,
-    "versionName": "6.10",
-    "lastUpdated": "2026-11-01T21:17:14.337761182Z",
+    "versionCode": 166,
+    "versionName": "6.11",
+    "lastUpdated": "2026-11-05T20:29:08.058509261Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },

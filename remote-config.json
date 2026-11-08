@@ -138,40 +138,69 @@
   "stable": {
     "distributions": [
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.8.163/Murglar-Desktop-6.8.163-windows-x64.zip",
-        "hash": "15CDC663CA5D05E61AEFDD38B9F9B937FA551E56",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.12.167/Murglar-Desktop-6.12.167-windows-x64.zip",
+        "hash": "2EC2495A123B8CD829D2D1A3F787C176625C8913",
         "format": "ZIP",
         "os": "WINDOWS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.8.163/Murglar-Desktop-6.8.163-mac-x64.dmg",
-        "hash": "91E728839E8A0F67E857325F2CA790F8DFF9AD74",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.12.167/Murglar-Desktop-6.12.167-mac-x64.dmg",
+        "hash": "19FC0D56235325BDF94D2A2AC222DD05AEE89753",
         "format": "DMG",
         "os": "MACOS",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.8.163/Murglar-Desktop-6.8.163-mac-arm64.dmg",
-        "hash": "2F0845E24856955D20213FF971BE9780667E7E89",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.12.167/Murglar-Desktop-6.12.167-mac-arm64.dmg",
+        "hash": "506B2DB49FDE6431F7EF98B6481EDF7AC2C2DF69",
         "format": "DMG",
         "os": "MACOS",
         "arch": "ARM64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.8.163/Murglar-Desktop-6.8.163-linux-x64.appimage",
-        "hash": "541AF856199F635D551D4DF9C7680A8E416C6E8B",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.12.167/Murglar-Desktop-6.12.167-linux-x64.appimage",
+        "hash": "7E40595FCB512673CFB7588E7461ED71FDFB37B2",
         "format": "APPIMAGE",
         "os": "LINUX",
         "arch": "X64"
       },
       {
-        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.8.163/Murglar-Desktop-6.8.163-all-platforms.jar",
-        "hash": "8C0880FE34A3F79E808D03E8AA6D9729FD1E320F",
+        "url": "https://github.com/badmannersteam/murglar-downloads/releases/download/Murglar-Desktop-6.12.167/Murglar-Desktop-6.12.167-all-platforms.jar",
+        "hash": "0248DC65E58800EACA213B8E4E099DA20AAEE626",
         "format": "JAR"
       }
     ],
     "changeLogRu": [
+      {
+        "version": "6.12.167",
+        "datetime": "2026-11-08T19:34:32.105789800Z",
+        "info": [],
+        "added": [
+          "Множественное выделение в списках и очереди - для активации выделения используйте Ctrl + клик или долгое нажатие на элемент списка, для выделения диапазонов используйте Shift + клик или долгое нажатие",
+          "Возможность удаления треков из очереди",
+          "Ограниченная поддержка прокси с авторизацией - поддерживается везде, кроме входа через Web",
+          "Немецкая локализация",
+          "Поддержка FLAC 24-bit в Deezer",
+          "Получение текстов песен для бесплатных аккаунтов Deezer",
+          "Разделы рекомендаций и обзора в Deezer",
+          "Настройка выбора частоты для Hi-Res формата в Qobuz",
+          "Новый способ входа в SoundCloud через cookie ('_soundcloud_session' от домена api-auth.soundcloud.com)"
+        ],
+        "fixed": [
+          "Уменьшено потребление CPU при воспроизведении из Deezer или при включенном прокси для контента",
+          "Закрытие плеера вместо переключения на следующий трек, если у трека в очереди не было доступных форматов",
+          "Улучшена фильтрация дубликатов в разделах библиотеки",
+          "Вход в SoundCloud через Web. Если получаете ошибку 401 от предыдущего входа - перезайдите в аккаунт через Web или cookie",
+          "Доработан обход капчи в SoundCloud для лайков - если лайки все еще не работают, то попробуйте перезайти в аккаунт через Web, используя чистый IP",
+          "Лишние/пропущенные уведомления сервисов о проигранных треках",
+          "Видимость уведомлений и дополнительных действий в меню из плагинов"
+        ],
+        "changed": [],
+        "removed": [
+          "Настройка 'Пропустить трек, если желаемый битрейт недоступен' - вместо нее отключите ненужные форматы в настройках сервиса - 'Приоритет форматов для загрузчика'"
+        ]
+      },
       {
         "version": "6.8.163",
         "datetime": "2026-10-14T21:46:55.377467400Z",
@@ -508,6 +537,35 @@
     ],
     "changeLogEn": [
       {
+        "version": "6.12.167",
+        "datetime": "2026-11-08T19:34:32.128825600Z",
+        "info": [],
+        "added": [
+          "Multiselection in lists and Now playing - use Ctrl + click or a long press on a list item to activate selection, and Shift + click or a long press to select ranges",
+          "Ability to remove tracks from the queue",
+          "Limited support for proxies with authentication - supported everywhere except login via Web",
+          "German localization",
+          "Support for 24-bit FLAC in Deezer",
+          "Getting lyrics for free Deezer accounts",
+          "Recommendations and discover sections in Deezer",
+          "Setting for frequency selection for Hi-Res format in Qobuz",
+          "New login method for SoundCloud via cookie ('_soundcloud_session' from the api-auth.soundcloud.com domain)"
+        ],
+        "fixed": [
+          "Reduced CPU usage when playing from Deezer or when a proxy for content is enabled",
+          "Player closing instead of switching to the next track when a track in the queue had no available formats",
+          "Improved duplicate filtering in library sections",
+          "Login via Web in SoundCloud. If you get a 401 error with an existing session, relogin to your account via Web or cookie",
+          "Improved captcha bypass for likes in SoundCloud - if likes are still not working, try logging into your account again via Web using a clean IP address",
+          "Extra/missing service notifications about played tracks",
+          "Visibility of notifications and additional menu actions from plugins"
+        ],
+        "changed": [],
+        "removed": [
+          "'Skip track if the desired bitrate is unavailable' setting - instead, disable unwanted formats in service settings - 'Downloader format priority'"
+        ]
+      },
+      {
         "version": "6.8.163",
         "datetime": "2026-10-14T21:46:55.393917700Z",
         "info": [],
@@ -839,9 +897,9 @@
         "removed": []
       }
     ],
-    "versionCode": 163,
-    "versionName": "6.8",
-    "lastUpdated": "2026-10-14T22:16:14.751166595Z",
+    "versionCode": 167,
+    "versionName": "6.12",
+    "lastUpdated": "2026-11-08T19:59:38.833915330Z",
     "forceUpdate": false,
     "forceUpdateDatetime": "+1000000000-12-31T23:59:59.999999999Z"
   },
